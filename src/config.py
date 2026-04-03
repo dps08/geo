@@ -1,5 +1,3 @@
-"""Configuration for the GEO platform."""
-
 import os
 from dotenv import load_dotenv
 
@@ -8,7 +6,7 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
-# Models to query via OpenRouter (latest as of April 2026)
+# Each model is keyed by a short identifier and maps to the OpenRouter model path.
 MODELS = {
     "gpt-5.4": "openai/gpt-5.4",
     "gpt-5.4-mini": "openai/gpt-5.4-mini",
@@ -19,25 +17,51 @@ MODELS = {
     "deepseek-v3.2": "deepseek/deepseek-v3.2",
 }
 
-# Product categories and brands to track
+# Brands are split into "established" (high existing visibility) and "emerging"
+# (lower visibility). This lets us measure whether optimization disproportionately
+# benefits lesser-known brands, consistent with Aggarwal et al. (KDD 2024).
 CATEGORIES = {
     "crm_software": {
         "display_name": "CRM Software",
         "brands": {
-            "large": ["Salesforce", "HubSpot", "Zoho CRM", "Microsoft Dynamics 365"],
-            "small": ["Copper", "Close", "Freshsales", "Less Annoying CRM", "Pipedrive"],
+            "established": [
+                "Salesforce",
+                "HubSpot",
+                "Zoho CRM",
+                "Microsoft Dynamics 365",
+            ],
+            "emerging": [
+                "Copper",
+                "Close",
+                "Freshsales",
+                "Less Annoying CRM",
+                "Pipedrive",
+            ],
         },
     },
     "project_management": {
         "display_name": "Project Management Tools",
         "brands": {
-            "large": ["Asana", "Monday.com", "Jira", "Microsoft Project"],
-            "small": ["Basecamp", "Teamwork", "ClickUp", "Wrike", "Notion"],
+            "established": [
+                "Asana",
+                "Monday.com",
+                "Jira",
+                "Microsoft Project",
+            ],
+            "emerging": [
+                "Basecamp",
+                "Teamwork",
+                "ClickUp",
+                "Wrike",
+                "Notion",
+            ],
         },
     },
 }
 
-# Prompt templates with varying specificity levels
+# Prompts are bucketed by specificity to study how query detail affects
+# which brands surface. "vague" prompts tend to favor dominant brands;
+# "specific" prompts sometimes surface niche players.
 PROMPT_TEMPLATES = {
     "vague": [
         "What's the best {category}?",
@@ -67,5 +91,6 @@ PROMPT_TEMPLATES = {
     ],
 }
 
-# LLM-as-judge model for sentiment analysis
+# Used for LLM-as-judge sentiment evaluation. A smaller model keeps costs low
+# while still producing reliable structured JSON output.
 JUDGE_MODEL = "openai/gpt-5.4-mini"
