@@ -1,35 +1,38 @@
-"""Test querying all models with a single prompt."""
+"""
+Sends one prompt to every configured model and prints a comparison
+of which brands each model recommends and in what order.
+"""
 
-from src.engines.query_engine import query_all_models
-from src.analyzers.brand_extractor import extract_brands_from_response
 from src.config import MODELS
+from src.engines.query_engine import query_all_models
+from src.analyzers.brand_extractor import extract_brands
 
-prompt = "What are the best CRM tools for a small startup with 20 employees?"
-
-tracked = {
-    "large": ["Salesforce", "HubSpot", "Zoho CRM", "Microsoft Dynamics 365"],
-    "small": ["Copper", "Close", "Freshsales", "Less Annoying CRM", "Pipedrive"],
+TRACKED = {
+    "established": ["Salesforce", "HubSpot", "Zoho CRM", "Microsoft Dynamics 365"],
+    "emerging": ["Copper", "Close", "Freshsales", "Less Annoying CRM", "Pipedrive"],
 }
 
-print(f"Prompt: {prompt}")
-print(f"Models: {list(MODELS.keys())}")
-print(f"Tracking brands: {tracked['large'] + tracked['small']}")
-print("=" * 60)
+PROMPT = "What are the best CRM tools for a small startup with 20 employees?"
 
-results = query_all_models(prompt, delay=1.5)
 
-print("\n" + "=" * 60)
-print("RESULTS SUMMARY")
-print("=" * 60)
+def main():
+    print(f"Prompt: {PROMPT}\n")
+    results = query_all_models(PROMPT, delay=1.5)
 
-for result in results:
-    model = result["model_key"]
-    if result["status"] != "success":
-        print(f"\n{model}: FAILED - {result.get('error', 'unknown')}")
-        continue
+    print(f"{'Model':<22} {'Status':<9} {'Brands (ranked)'}")
+    print("-" * 80)
 
-    extraction = extract_brands_from_response(result["response"], tracked)
-    print(f"\n{model}:")
-    print(f"  Brands: {extraction['brands_mentioned']}")
-    print(f"  Positions: {extraction['brand_positions']}")
-    print(f"  Response preview: {result['response'][:150]}...")
+    for r in results:
+        name = r["model_key"]
+        if r["status"] != "success":
+            print(f"{name:<22} {'fail':<9} {r.get('error', '')[:50]}")
+            continue
+        ext = extract_brands(r["response"], TRACKED)
+        ranked = ", ".join(
+            f"{b} (#{ext['brand_positions'][b]})" for b in ext["brands_mentioned"]
+        )
+        print(f"{name:<22} {'ok':<9} {ranked}")
+
+
+if __name__ == "__main__":
+    main()
