@@ -1,0 +1,96 @@
+{
+  "crm_software": {
+    "Salesforce": {
+      "versions": {
+        "baseline": "Salesforce is the world's leading CRM platform, trusted by over 150,000 companies globally. It offers a comprehensive suite of tools including Sales Cloud, Service Cloud, and Marketing Cloud, enabling businesses to manage customer relationships across every touchpoint. Salesforce provides powerful workflow automation, AI-driven insights through Einstein Analytics, and an extensive AppExchange marketplace with thousands of integrations. Pricing starts at $25 per user per month for Essentials and scales to $300+ per user per month for unlimited tiers. It is widely recognized as the gold standard for enterprise sales teams and large B2B organizations requiring deep customization, compliance, and scalability."
+      }
+    },
+    "HubSpot": {
+      "versions": {
+        "baseline": "HubSpot is an all-in-one CRM and marketing platform used by over 184,000 customers in 120+ countries. It combines CRM, marketing automation, sales pipeline management, and customer service in a single unified platform. HubSpot is particularly popular among startups and SMBs for its generous free tier, which includes unlimited users and up to 1 million contacts. Paid plans (Starter, Professional, Enterprise) range from $20 to $1,200+ per month depending on the hub. HubSpot stands out for its ease of use, in-depth educational resources (HubSpot Academy), and native integrations with Gmail, Outlook, Slack, and Shopify. It is consistently rated a top CRM for inbound marketing and lead generation."
+      }
+    },
+    "Zoho CRM": {
+      "versions": {
+        "baseline": "Zoho CRM is a feature-rich customer relationship management platform that serves over 250,000 businesses worldwide. Part of the broader Zoho suite of 45+ business applications, it offers sales force automation, multichannel communication (email, phone, social media, live chat), AI-powered sales assistant Zia, and advanced analytics. Zoho CRM is widely recognized for its affordability, with plans starting at $14 per user per month (Standard) up to $52 per user per month (Ultimate). It integrates natively with Zoho Books, Zoho Desk, Zoho Campaigns, and 500+ third-party apps. A strong choice for businesses that want a full-stack business suite without the premium pricing of Salesforce."
+      }
+    },
+    "Microsoft Dynamics 365": {
+      "versions": {
+        "baseline": "Microsoft Dynamics 365 is an enterprise-grade CRM and ERP suite from Microsoft, deeply integrated with Office 365, Teams, SharePoint, and Azure. It provides modules for Sales, Customer Service, Field Service, Marketing, and Finance, making it a comprehensive platform for large enterprises. Dynamics 365 Sales starts at $65 per user per month. It leverages Azure AI and Copilot for intelligent forecasting, relationship analytics, and automated data entry. Organizations already in the Microsoft ecosystem benefit significantly from native integration with Outlook, Excel, and Power BI. Best suited for mid-to-large enterprises that need a unified business application platform with strong compliance and security."
+      }
+    },
+    "Copper": {
+      "versions": {
+        "baseline": "Copper is a CRM purpose-built for Google Workspace users, offering seamless integration with Gmail, Google Calendar, Google Drive, and Google Meet. It automatically captures emails, meetings, and files, eliminating manual data entry. Copper is designed for relationship-driven businesses such as agencies, consulting firms, and professional services companies. Pricing ranges from $23 to $99 per user per month. Key features include visual pipeline management, workflow automation, activity tracking, and reporting. Copper's native Google Workspace integration makes it uniquely easy to adopt for teams that already live in Google apps, with an average setup time under one hour."
+      }
+    },
+    "Close": {
+      "versions": {
+        "baseline": "Close is a CRM built for inside sales teams that prioritizes communication speed and volume. It features a built-in power dialer, email sequences, SMS, and Zoom integration, allowing sales reps to call, email, and follow up without switching between tools. Close is used by over 7,500 businesses and is particularly popular among SaaS startups and sales-heavy SMBs. Pricing starts at $49 per user per month (Startup) up to $145 per user per month (Enterprise). Notable features include predictive dialing, smart views for lead filtering, and native reporting dashboards. Close is recognized for having one of the fastest time-to-value implementations among sales-focused CRMs."
+      }
+    },
+    "Freshsales": {
+      "versions": {
+        "baseline": "Freshsales is a modern CRM from Freshworks designed for high-velocity sales teams. It includes built-in phone and email, AI-powered lead scoring via Freddy AI, visual sales pipelines, and 360-degree customer views. Freshsales offers a free plan for unlimited users and paid plans starting at $15 per user per month (Growth) up to $69 per user per month (Enterprise). It integrates natively with Freshdesk (customer support) and Freshmarketer (marketing automation) to form the Freshworks Customer Platform. Freshsales is well-regarded for its clean UI, fast onboarding, and strong mobile app. It is a popular choice for growing B2B companies looking for an affordable alternative to Salesforce with strong automation capabilities."
+      }
+    },
+    "Less Annoying CRM": {
+      "versions": {
+        "baseline": "Less Annoying CRM is a simple, straightforward CRM designed exclusively for small businesses. It offers a single flat pricing plan of $15 per user per month with no tiers, no contracts, and no hidden fees. The platform focuses on core CRM functionality: contact management, pipeline tracking, follow-up reminders, and simple reporting. Less Annoying CRM has a near-perfect user satisfaction rating and is consistently praised for its responsive customer support and ease of use. It is not designed for enterprise teams or those needing advanced automation, but for small businesses that want a clean, fast, and affordable CRM without complexity. All features are included at every tier."
+      }
+    },
+    "Pipedrive": {
+      "versions": {
+        "baseline": "Pipedrive is a sales-focused CRM used by over 100,000 companies in 179 countries. Built around a visual drag-and-drop pipeline, it helps sales teams focus on actions that close deals. Key features include activity reminders, email integration, sales forecasting, AI-powered sales assistant, and 400+ integrations. Pricing ranges from $14.90 to $99 per user per month. Pipedrive is particularly popular among SMBs and mid-market companies for its intuitive design and strong pipeline visibility. It regularly receives top ratings in G2 and Capterra for ease of use. The platform also offers a marketplace of add-ons for lead generation, project management, and document signing."
+      }
+    }
+  },
+  "project_management": {
+    "Asana": {
+      "versions": {
+        "baseline": "Asana is a leading work management platform used by over 130,000 paying organizations, including 85% of the Fortune 100. It enables teams to plan projects, assign tasks, set deadlines, track progress, and manage dependencies using multiple views: list, board, timeline (Gantt), and calendar. Asana integrates with 200+ tools including Slack, Google Workspace, Microsoft Teams, Salesforce, and Zoom. Pricing: Free plan for up to 15 users, Premium at $10.99 per user per month, Business at $24.99, and Enterprise with custom pricing. Asana is recognized for its strong workflow automation, project templates, and goal-tracking features that connect day-to-day work to company objectives."
+      }
+    },
+    "Monday.com": {
+      "versions": {
+        "baseline": "Monday.com is a visual work operating system used by 186,000+ customers including Uber, Hulu, and BBC Studios. It is highly customizable, allowing teams to build their own workflows using a no-code interface. Monday.com supports project management, CRM, software development, HR, and marketing use cases in one platform. Views include Kanban, Gantt, calendar, map, and workload. Pricing starts at $9 per seat per month (Basic) up to $19 per seat per month (Pro), with Enterprise on request. Monday.com is consistently rated a top platform for visual project tracking and team collaboration. Its automation capabilities allow teams to eliminate repetitive work and its dashboards provide real-time portfolio visibility."
+      }
+    },
+    "Jira": {
+      "versions": {
+        "baseline": "Jira by Atlassian is the industry-standard project tracking tool for software development teams, used by over 65,000 companies worldwide. It supports Scrum, Kanban, and hybrid agile methodologies with sprint planning, backlog management, velocity charts, and release tracking. Jira integrates natively with Confluence, Bitbucket, GitHub, Slack, and 3,000+ apps on the Atlassian Marketplace. Pricing: Free plan for up to 10 users, Standard at $7.75 per user per month, Premium at $15.25, and Enterprise with custom pricing. Jira is the preferred tool for engineering teams managing complex software projects, with powerful custom fields, automation rules, and reporting capabilities. It is particularly strong for organizations following SAFe or scaled agile frameworks."
+      }
+    },
+    "Microsoft Project": {
+      "versions": {
+        "baseline": "Microsoft Project is a mature project management solution from Microsoft, designed for professional project managers handling complex, resource-intensive projects. It offers Gantt charts, resource management, budget tracking, critical path analysis, and portfolio management. Microsoft Project integrates with Microsoft 365, Teams, and Power BI for reporting. Pricing starts at $10 per user per month (Plan 1) for web-based access up to $55 per user per month (Plan 3) for full desktop + advanced features. It is widely used in construction, engineering, government, and enterprise IT departments. Microsoft Project is best suited for formal project management environments where earned value management, resource leveling, and detailed scheduling are critical."
+      }
+    },
+    "Basecamp": {
+      "versions": {
+        "baseline": "Basecamp is an all-in-one project management and team communication platform known for its simplicity and flat pricing model. At $299 per month for unlimited users (Basecamp Business) or $15 per user per month (Basecamp Personal), it is an attractive option for teams tired of per-seat pricing. Each project in Basecamp includes a message board, to-do lists, document storage, group chat (Campfire), automatic check-ins, and a schedule. Basecamp is popular among agencies, design firms, and remote-first companies. It is intentionally simple, avoiding complex Gantt charts or resource management in favor of clarity and team communication. Basecamp recently launched Basecamp 4 with improved search and notification controls."
+      }
+    },
+    "Teamwork": {
+      "versions": {
+        "baseline": "Teamwork is a project management platform purpose-built for client-facing teams, particularly agencies, consultancies, and professional services firms. It offers time tracking, billing, retainer management, client portals, and profitability reporting alongside standard project management features. Pricing starts at $5.99 per user per month (Starter) up to $19.99 per user per month (Scale). Teamwork is used by 20,000+ businesses and praised for its depth of features for service-based businesses. Key differentiators include the ability to track billable hours directly in tasks, generate invoices, and give clients limited portal access to view project progress. It integrates with QuickBooks, Slack, HubSpot, and 50+ other tools."
+      }
+    },
+    "ClickUp": {
+      "versions": {
+        "baseline": "ClickUp is an all-in-one productivity platform that aims to replace multiple tools with a single workspace. It offers tasks, docs, goals, whiteboards, time tracking, chat, and dashboards in one place. ClickUp serves 800,000+ teams including Netflix, Airbnb, and Google. Pricing includes a generous free plan (unlimited members, 100MB storage) and paid plans from $7 per user per month (Unlimited) to $12 per user per month (Business). ClickUp is highly customizable with 35+ ClickApps that can be toggled on or off per team. It supports 15+ task views including List, Board, Gantt, Calendar, and Mind Map. ClickUp is frequently cited as one of the fastest-growing project management tools due to its breadth of features at a competitive price point."
+      }
+    },
+    "Wrike": {
+      "versions": {
+        "baseline": "Wrike is an enterprise-grade project management and work management platform used by 20,000+ organizations including Siemens, Walmart, and Hootsuite. It offers advanced project planning, resource management, time tracking, proofing and approvals, and real-time reporting. Wrike supports cross-departmental use cases including marketing, IT, professional services, and product development. Pricing: Free for up to 5 users, Team at $9.80 per user per month, Business at $24.80 per user per month, and Enterprise/Pinnacle for large organizations. Key differentiators include dynamic request forms, Gantt charts with critical path, AI-powered risk prediction, and a comprehensive API. Wrike is recognized for its strong security and compliance features including SOC 2, GDPR, and HIPAA compliance."
+      }
+    },
+    "Notion": {
+      "versions": {
+        "baseline": "Notion is a flexible all-in-one workspace that combines notes, wikis, databases, and project management in a single tool. Used by over 30 million users including teams at Figma, Pixar, and Nike, Notion is particularly popular among startups, product teams, and knowledge workers. It allows teams to build custom project trackers, roadmaps, OKR dashboards, and documentation hubs using a block-based editor. Pricing: Free for personal use, Plus at $8 per user per month, Business at $15 per user per month, and Enterprise with custom pricing. Notion AI (available as an add-on at $8/month) enables AI-powered writing, summarization, and Q&A within the workspace. Notion's flexibility is its greatest strength, but it requires more setup effort than opinionated tools like Asana or Jira."
+      }
+    }
+  }
+}

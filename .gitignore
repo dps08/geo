@@ -8,3 +8,4 @@ results/*.json
 dist/
 build/
 .DS_Store
+data/chroma_db/
