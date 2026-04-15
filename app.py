@@ -151,7 +151,7 @@ if page == "Command Center":
         This dashboard presents results from our research on <strong>Generative Engine Optimization (GEO)</strong>,
         the practice of optimizing content so brands appear prominently in AI-generated recommendations.
         <br><br>
-        When you ask an LLM <em>"What is the best CRM?"</em>, the answer shapes real purchasing decisions.
+        When you ask ChatGPT or Claude <em>"What is the best CRM?"</em>, the answer shapes real purchasing decisions.
         We study what determines which brands get recommended and whether injecting optimized content via
         <strong>RAG (Retrieval-Augmented Generation)</strong> can change those rankings.
         <br><br>

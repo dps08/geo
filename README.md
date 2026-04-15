@@ -2,7 +2,7 @@
 
 A research platform for measuring and improving brand visibility in LLM-generated product recommendations.
 
-When users ask ChatGPT or Gemini "what's the best CRM?", certain brands dominate while others never appear. This project studies what drives those recommendations and whether targeted content optimization can shift them, building on the foundational GEO research by [Aggarwal et al. (KDD 2024)](https://arxiv.org/abs/2311.09735).
+When users ask ChatGPT, Claude, or Gemini "what's the best CRM?", certain brands dominate while others never appear. This project studies what drives those recommendations and whether targeted content optimization can shift them, building on the foundational GEO research by [Aggarwal et al. (KDD 2024)](https://arxiv.org/abs/2311.09735).
 
 ## What it does
 
