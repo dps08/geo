@@ -13,7 +13,7 @@ import numpy as np
 RESULTS_DIR = Path("results")
 st.set_page_config(page_title="GEO Research Lab", page_icon="🧬", layout="wide")
 
-# ── Theme toggle ─────────────────────────────────────────────────────────
+# Theme toggle
 if "theme" not in st.session_state:
     st.session_state.theme = "dark"
 
@@ -75,7 +75,7 @@ def fig_layout(fig, **kw):
     fig.update_layout(**merged)
     return fig
 
-# ── Data ─────────────────────────────────────────────────────────────────
+# Data loading
 @st.cache_data(ttl=30)
 def load_latest(pattern):
     files = sorted(RESULTS_DIR.glob(pattern), key=lambda f: f.stat().st_mtime, reverse=True)
@@ -114,7 +114,7 @@ if rag_opt: dfs.append(mention_df(rag_opt, "B: RAG+Optimized"))
 if rag_base: dfs.append(mention_df(rag_base, "C: RAG+Neutral"))
 df = pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
 
-# ── Sidebar ──────────────────────────────────────────────────────────────
+# Sidebar
 with st.sidebar:
     st.markdown(f"<div style='text-align:center;padding:16px 0 8px'><span style='font-size:1.5rem;font-weight:700;color:{TEXT}'>GEO Lab</span><br><span style='color:{TEXT2};font-size:0.72rem'>Generative Engine Optimization</span></div>", unsafe_allow_html=True)
     st.markdown("---")
@@ -130,7 +130,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(f"<div style='text-align:center;color:{TEXT2};font-size:0.7rem;line-height:1.8'><strong>CS6180 - Spring 2026</strong><br>Divit Pratap Singh<br>Uday Sonawane<br>Shantanu Shashank Dharmadhikari</div>", unsafe_allow_html=True)
 
-# ═══════════════════════════════════════════════════════════════════════
+
 if page == "Command Center":
     st.markdown("# Command Center")
     st.markdown(f"<p class='sub'>Overview of all GEO experiments across 9 brands, 4 LLMs, and 3 conditions</p>", unsafe_allow_html=True)
@@ -151,7 +151,7 @@ if page == "Command Center":
         This dashboard presents results from our research on <strong>Generative Engine Optimization (GEO)</strong>,
         the practice of optimizing content so brands appear prominently in AI-generated recommendations.
         <br><br>
-        When you ask ChatGPT or Claude <em>"What is the best CRM?"</em>, the answer shapes real purchasing decisions.
+        When you ask an LLM <em>"What is the best CRM?"</em>, the answer shapes real purchasing decisions.
         We study what determines which brands get recommended and whether injecting optimized content via
         <strong>RAG (Retrieval-Augmented Generation)</strong> can change those rankings.
         <br><br>
@@ -237,7 +237,7 @@ if page == "Command Center":
         </div>""", unsafe_allow_html=True)
 
 
-# ═══════════════════════════════════════════════════════════════════════
+
 elif page == "Condition Deep-Dive":
     st.markdown("# Condition Deep-Dive")
     st.markdown(f"<p class='sub'>Detailed comparison of all three experimental conditions</p>", unsafe_allow_html=True)
@@ -302,7 +302,7 @@ elif page == "Condition Deep-Dive":
             st.plotly_chart(fig, use_container_width=True)
 
 
-# ═══════════════════════════════════════════════════════════════════════
+
 elif page == "Model Intelligence":
     st.markdown("# Model Intelligence")
     st.markdown(f"<p class='sub'>How each LLM responds differently to the same content</p>", unsafe_allow_html=True)
@@ -339,7 +339,7 @@ elif page == "Model Intelligence":
         st.markdown("""<div class='finding'><strong>Finding:</strong> All 4 models show the same pattern: Baseline < Neutral RAG < Optimized RAG. GEO strategies work across model families, not just one vendor.</div>""", unsafe_allow_html=True)
 
 
-# ═══════════════════════════════════════════════════════════════════════
+
 elif page == "NexaCRM Experiment":
     st.markdown("# NexaCRM: The Pseudo-Brand Experiment")
     st.markdown(f"<p class='sub'>Can a brand that does not exist rank #1 in AI recommendations?</p>", unsafe_allow_html=True)
@@ -400,7 +400,7 @@ elif page == "NexaCRM Experiment":
                 st.markdown(r.get("response","")[:800])
 
 
-# ═══════════════════════════════════════════════════════════════════════
+
 elif page == "Feedback Loop":
     st.markdown("# Feedback Loop: LLM-as-Optimizer")
     st.markdown(f"<p class='sub'>Using one LLM to iteratively rewrite content that improves visibility on other LLMs</p>", unsafe_allow_html=True)
@@ -449,7 +449,7 @@ elif page == "Feedback Loop":
         st.info("No feedback loop data yet. Run: python run_feedback_loop.py --brand Copper --iterations 2")
 
 
-# ═══════════════════════════════════════════════════════════════════════
+
 elif page == "Embedding Analysis":
     st.markdown("# Embedding Space Analysis")
     st.markdown(f"<p class='sub'>How RAG changes the semantic distribution of LLM responses</p>", unsafe_allow_html=True)
@@ -493,7 +493,7 @@ elif page == "Embedding Analysis":
     </div>""", unsafe_allow_html=True)
 
 
-# ═══════════════════════════════════════════════════════════════════════
+
 elif page == "Response Explorer":
     st.markdown("# Response Explorer")
     st.markdown(f"<p class='sub'>Browse raw LLM outputs from every experiment</p>", unsafe_allow_html=True)

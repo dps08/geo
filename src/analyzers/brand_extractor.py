@@ -183,7 +183,7 @@ def aggregate_metrics(results: list[dict]) -> dict:
     return metrics
 
 
-# -- internal helpers --------------------------------------------------------
+# internal helpers
 
 def _brand_patterns(brand: str) -> list[str]:
     """
