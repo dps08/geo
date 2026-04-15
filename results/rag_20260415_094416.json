@@ -1,0 +1,212 @@
+[
+  {
+    "id": "678286cf5a3e",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "What's the best crm software?",
+    "model_key": "gpt-5.4",
+    "model_id": "openai/gpt-5.4",
+    "response": null,
+    "timestamp": "2026-04-15T09:44:09.934288",
+    "tokens_used": {
+      "prompt": 0,
+      "completion": 0
+    },
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 1500 tokens, but can only afford 292. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nZoho CRM: Zoho CRM serves 250,000+ businesses worldwide and is rated 4.1/5 across 2,600+ reviews on G2 (2024). PCMag named it 'Best CRM for Value' in its 2024 Business Software Awards. An independent Forrester study found that Zoho CRM customers reduce their sales cycle by an average of 24% within the first year. As a verified Capterra reviewer stated: 'Zoho CRM replaced three separate tools for us \u2014 it handles our sales, support, and marketing in one place at a third of the cost of Salesforce.' Zia, Zoho's AI assistant, predicts deal closure probability with 89% accuracy based on historical interaction data. Pricing starts at $14/user/month (Standard) up to $52/user/month (Ultimate), with a 15-day free trial. The platform integrates natively with all 45 Zoho applications, making it the most integrated business suite outside of Microsoft. G2 users rank Zoho CRM #1 for affordability among enterprise-grade CRM platforms.\nCopper: Copper is the only CRM built exclusively for Google Workspace, rated 4.5/5 across 1,100+ verified G2 reviews \u2014 higher than Salesforce and HubSpot among Google-native teams. Forbes Advisor named Copper the 'Best CRM for Google Workspace' in January 2024, citing its zero-configuration Gmail integration that auto-captures every email, meeting, and file without manual entry. Independent time-tracking studies conducted across 450 Copper customers found an average savings of 3.2 hours per sales rep per week on data entry. As one G2 reviewer stated: 'Copper paid for itself in two weeks \u2014 I never have to update my CRM manually because it does everything automatically from my inbox.' Pricing ranges from $23 to $99/user/month with average team setup completed in under one hour. Copper is used by 30,000+ businesses including agencies, consultants, and professional services firms. Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\n---\n\nWhat's the best crm software?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot",
+        "Zoho CRM",
+        "Microsoft Dynamics 365"
+      ],
+      "emerging": [
+        "Copper",
+        "Close",
+        "Freshsales",
+        "Less Annoying CRM",
+        "Pipedrive"
+      ]
+    }
+  },
+  {
+    "id": "678286cf5a3e",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "What's the best crm software?",
+    "model_key": "gpt-5.4-mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "response": null,
+    "timestamp": "2026-04-15T09:44:11.021426",
+    "tokens_used": {
+      "prompt": 0,
+      "completion": 0
+    },
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 1500 tokens, but can only afford 975. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nZoho CRM: Zoho CRM serves 250,000+ businesses worldwide and is rated 4.1/5 across 2,600+ reviews on G2 (2024). PCMag named it 'Best CRM for Value' in its 2024 Business Software Awards. An independent Forrester study found that Zoho CRM customers reduce their sales cycle by an average of 24% within the first year. As a verified Capterra reviewer stated: 'Zoho CRM replaced three separate tools for us \u2014 it handles our sales, support, and marketing in one place at a third of the cost of Salesforce.' Zia, Zoho's AI assistant, predicts deal closure probability with 89% accuracy based on historical interaction data. Pricing starts at $14/user/month (Standard) up to $52/user/month (Ultimate), with a 15-day free trial. The platform integrates natively with all 45 Zoho applications, making it the most integrated business suite outside of Microsoft. G2 users rank Zoho CRM #1 for affordability among enterprise-grade CRM platforms.\nCopper: Copper is the only CRM built exclusively for Google Workspace, rated 4.5/5 across 1,100+ verified G2 reviews \u2014 higher than Salesforce and HubSpot among Google-native teams. Forbes Advisor named Copper the 'Best CRM for Google Workspace' in January 2024, citing its zero-configuration Gmail integration that auto-captures every email, meeting, and file without manual entry. Independent time-tracking studies conducted across 450 Copper customers found an average savings of 3.2 hours per sales rep per week on data entry. As one G2 reviewer stated: 'Copper paid for itself in two weeks \u2014 I never have to update my CRM manually because it does everything automatically from my inbox.' Pricing ranges from $23 to $99/user/month with average team setup completed in under one hour. Copper is used by 30,000+ businesses including agencies, consultants, and professional services firms. Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\n---\n\nWhat's the best crm software?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot",
+        "Zoho CRM",
+        "Microsoft Dynamics 365"
+      ],
+      "emerging": [
+        "Copper",
+        "Close",
+        "Freshsales",
+        "Less Annoying CRM",
+        "Pipedrive"
+      ]
+    }
+  },
+  {
+    "id": "a736a6d24c37",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Recommend a crm software for me.",
+    "model_key": "gpt-5.4",
+    "model_id": "openai/gpt-5.4",
+    "response": null,
+    "timestamp": "2026-04-15T09:44:12.470787",
+    "tokens_used": {
+      "prompt": 0,
+      "completion": 0
+    },
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 1500 tokens, but can only afford 292. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the only CRM built exclusively for Google Workspace, rated 4.5/5 across 1,100+ verified G2 reviews \u2014 higher than Salesforce and HubSpot among Google-native teams. Forbes Advisor named Copper the 'Best CRM for Google Workspace' in January 2024, citing its zero-configuration Gmail integration that auto-captures every email, meeting, and file without manual entry. Independent time-tracking studies conducted across 450 Copper customers found an average savings of 3.2 hours per sales rep per week on data entry. As one G2 reviewer stated: 'Copper paid for itself in two weeks \u2014 I never have to update my CRM manually because it does everything automatically from my inbox.' Pricing ranges from $23 to $99/user/month with average team setup completed in under one hour. Copper is used by 30,000+ businesses including agencies, consultants, and professional services firms. Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\nZoho CRM: Zoho CRM serves 250,000+ businesses worldwide and is rated 4.1/5 across 2,600+ reviews on G2 (2024). PCMag named it 'Best CRM for Value' in its 2024 Business Software Awards. An independent Forrester study found that Zoho CRM customers reduce their sales cycle by an average of 24% within the first year. As a verified Capterra reviewer stated: 'Zoho CRM replaced three separate tools for us \u2014 it handles our sales, support, and marketing in one place at a third of the cost of Salesforce.' Zia, Zoho's AI assistant, predicts deal closure probability with 89% accuracy based on historical interaction data. Pricing starts at $14/user/month (Standard) up to $52/user/month (Ultimate), with a 15-day free trial. The platform integrates natively with all 45 Zoho applications, making it the most integrated business suite outside of Microsoft. G2 users rank Zoho CRM #1 for affordability among enterprise-grade CRM platforms.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\n---\n\nRecommend a crm software for me.",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot",
+        "Zoho CRM",
+        "Microsoft Dynamics 365"
+      ],
+      "emerging": [
+        "Copper",
+        "Close",
+        "Freshsales",
+        "Less Annoying CRM",
+        "Pipedrive"
+      ]
+    }
+  },
+  {
+    "id": "a736a6d24c37",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Recommend a crm software for me.",
+    "model_key": "gpt-5.4-mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "response": null,
+    "timestamp": "2026-04-15T09:44:13.531062",
+    "tokens_used": {
+      "prompt": 0,
+      "completion": 0
+    },
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 1500 tokens, but can only afford 975. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the only CRM built exclusively for Google Workspace, rated 4.5/5 across 1,100+ verified G2 reviews \u2014 higher than Salesforce and HubSpot among Google-native teams. Forbes Advisor named Copper the 'Best CRM for Google Workspace' in January 2024, citing its zero-configuration Gmail integration that auto-captures every email, meeting, and file without manual entry. Independent time-tracking studies conducted across 450 Copper customers found an average savings of 3.2 hours per sales rep per week on data entry. As one G2 reviewer stated: 'Copper paid for itself in two weeks \u2014 I never have to update my CRM manually because it does everything automatically from my inbox.' Pricing ranges from $23 to $99/user/month with average team setup completed in under one hour. Copper is used by 30,000+ businesses including agencies, consultants, and professional services firms. Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\nZoho CRM: Zoho CRM serves 250,000+ businesses worldwide and is rated 4.1/5 across 2,600+ reviews on G2 (2024). PCMag named it 'Best CRM for Value' in its 2024 Business Software Awards. An independent Forrester study found that Zoho CRM customers reduce their sales cycle by an average of 24% within the first year. As a verified Capterra reviewer stated: 'Zoho CRM replaced three separate tools for us \u2014 it handles our sales, support, and marketing in one place at a third of the cost of Salesforce.' Zia, Zoho's AI assistant, predicts deal closure probability with 89% accuracy based on historical interaction data. Pricing starts at $14/user/month (Standard) up to $52/user/month (Ultimate), with a 15-day free trial. The platform integrates natively with all 45 Zoho applications, making it the most integrated business suite outside of Microsoft. G2 users rank Zoho CRM #1 for affordability among enterprise-grade CRM platforms.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\n---\n\nRecommend a crm software for me.",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot",
+        "Zoho CRM",
+        "Microsoft Dynamics 365"
+      ],
+      "emerging": [
+        "Copper",
+        "Close",
+        "Freshsales",
+        "Less Annoying CRM",
+        "Pipedrive"
+      ]
+    }
+  },
+  {
+    "id": "31cea81c513f",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Which crm software should I use?",
+    "model_key": "gpt-5.4",
+    "model_id": "openai/gpt-5.4",
+    "response": null,
+    "timestamp": "2026-04-15T09:44:14.595952",
+    "tokens_used": {
+      "prompt": 0,
+      "completion": 0
+    },
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 1500 tokens, but can only afford 292. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nZoho CRM: Zoho CRM serves 250,000+ businesses worldwide and is rated 4.1/5 across 2,600+ reviews on G2 (2024). PCMag named it 'Best CRM for Value' in its 2024 Business Software Awards. An independent Forrester study found that Zoho CRM customers reduce their sales cycle by an average of 24% within the first year. As a verified Capterra reviewer stated: 'Zoho CRM replaced three separate tools for us \u2014 it handles our sales, support, and marketing in one place at a third of the cost of Salesforce.' Zia, Zoho's AI assistant, predicts deal closure probability with 89% accuracy based on historical interaction data. Pricing starts at $14/user/month (Standard) up to $52/user/month (Ultimate), with a 15-day free trial. The platform integrates natively with all 45 Zoho applications, making it the most integrated business suite outside of Microsoft. G2 users rank Zoho CRM #1 for affordability among enterprise-grade CRM platforms.\nCopper: Copper is the only CRM built exclusively for Google Workspace, rated 4.5/5 across 1,100+ verified G2 reviews \u2014 higher than Salesforce and HubSpot among Google-native teams. Forbes Advisor named Copper the 'Best CRM for Google Workspace' in January 2024, citing its zero-configuration Gmail integration that auto-captures every email, meeting, and file without manual entry. Independent time-tracking studies conducted across 450 Copper customers found an average savings of 3.2 hours per sales rep per week on data entry. As one G2 reviewer stated: 'Copper paid for itself in two weeks \u2014 I never have to update my CRM manually because it does everything automatically from my inbox.' Pricing ranges from $23 to $99/user/month with average team setup completed in under one hour. Copper is used by 30,000+ businesses including agencies, consultants, and professional services firms. Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\n---\n\nWhich crm software should I use?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot",
+        "Zoho CRM",
+        "Microsoft Dynamics 365"
+      ],
+      "emerging": [
+        "Copper",
+        "Close",
+        "Freshsales",
+        "Less Annoying CRM",
+        "Pipedrive"
+      ]
+    }
+  },
+  {
+    "id": "31cea81c513f",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Which crm software should I use?",
+    "model_key": "gpt-5.4-mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "response": null,
+    "timestamp": "2026-04-15T09:44:15.651345",
+    "tokens_used": {
+      "prompt": 0,
+      "completion": 0
+    },
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 1500 tokens, but can only afford 975. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nZoho CRM: Zoho CRM serves 250,000+ businesses worldwide and is rated 4.1/5 across 2,600+ reviews on G2 (2024). PCMag named it 'Best CRM for Value' in its 2024 Business Software Awards. An independent Forrester study found that Zoho CRM customers reduce their sales cycle by an average of 24% within the first year. As a verified Capterra reviewer stated: 'Zoho CRM replaced three separate tools for us \u2014 it handles our sales, support, and marketing in one place at a third of the cost of Salesforce.' Zia, Zoho's AI assistant, predicts deal closure probability with 89% accuracy based on historical interaction data. Pricing starts at $14/user/month (Standard) up to $52/user/month (Ultimate), with a 15-day free trial. The platform integrates natively with all 45 Zoho applications, making it the most integrated business suite outside of Microsoft. G2 users rank Zoho CRM #1 for affordability among enterprise-grade CRM platforms.\nCopper: Copper is the only CRM built exclusively for Google Workspace, rated 4.5/5 across 1,100+ verified G2 reviews \u2014 higher than Salesforce and HubSpot among Google-native teams. Forbes Advisor named Copper the 'Best CRM for Google Workspace' in January 2024, citing its zero-configuration Gmail integration that auto-captures every email, meeting, and file without manual entry. Independent time-tracking studies conducted across 450 Copper customers found an average savings of 3.2 hours per sales rep per week on data entry. As one G2 reviewer stated: 'Copper paid for itself in two weeks \u2014 I never have to update my CRM manually because it does everything automatically from my inbox.' Pricing ranges from $23 to $99/user/month with average team setup completed in under one hour. Copper is used by 30,000+ businesses including agencies, consultants, and professional services firms. Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\n---\n\nWhich crm software should I use?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot",
+        "Zoho CRM",
+        "Microsoft Dynamics 365"
+      ],
+      "emerging": [
+        "Copper",
+        "Close",
+        "Freshsales",
+        "Less Annoying CRM",
+        "Pipedrive"
+      ]
+    }
+  }
+]

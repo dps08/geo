@@ -1,0 +1,402 @@
+{
+  "generated_at": "2026-04-15T13:36:11.341392",
+  "brand_metrics": {
+    "Salesforce": {
+      "mention_rate": 0.775,
+      "avg_position": 3.9,
+      "total_queries": 40,
+      "total_mentions": 31,
+      "tier": "established",
+      "cross_model_consistency": "4/4",
+      "by_model": {
+        "gpt-5.4-mini": {
+          "mention_rate": 0.7,
+          "avg_position": 4.0,
+          "queries": 10
+        },
+        "llama-4-maverick": {
+          "mention_rate": 1.0,
+          "avg_position": 4.4,
+          "queries": 10
+        },
+        "mistral-large": {
+          "mention_rate": 0.8,
+          "avg_position": 3.0,
+          "queries": 10
+        },
+        "deepseek-v3.2": {
+          "mention_rate": 0.6,
+          "avg_position": 4.17,
+          "queries": 10
+        }
+      },
+      "by_specificity": {
+        "vague": {
+          "mention_rate": 0.9167,
+          "queries": 12
+        },
+        "medium": {
+          "mention_rate": 0.8125,
+          "queries": 16
+        },
+        "specific": {
+          "mention_rate": 0.5833,
+          "queries": 12
+        }
+      }
+    },
+    "HubSpot": {
+      "mention_rate": 1.0,
+      "avg_position": 1.88,
+      "total_queries": 40,
+      "total_mentions": 40,
+      "tier": "established",
+      "cross_model_consistency": "4/4",
+      "by_model": {
+        "gpt-5.4-mini": {
+          "mention_rate": 1.0,
+          "avg_position": 1.4,
+          "queries": 10
+        },
+        "llama-4-maverick": {
+          "mention_rate": 1.0,
+          "avg_position": 1.9,
+          "queries": 10
+        },
+        "mistral-large": {
+          "mention_rate": 1.0,
+          "avg_position": 2.1,
+          "queries": 10
+        },
+        "deepseek-v3.2": {
+          "mention_rate": 1.0,
+          "avg_position": 2.1,
+          "queries": 10
+        }
+      },
+      "by_specificity": {
+        "vague": {
+          "mention_rate": 1.0,
+          "queries": 12
+        },
+        "medium": {
+          "mention_rate": 1.0,
+          "queries": 16
+        },
+        "specific": {
+          "mention_rate": 1.0,
+          "queries": 12
+        }
+      }
+    },
+    "Copper": {
+      "mention_rate": 0.925,
+      "avg_position": 3.7,
+      "total_queries": 40,
+      "total_mentions": 37,
+      "tier": "emerging",
+      "cross_model_consistency": "4/4",
+      "by_model": {
+        "gpt-5.4-mini": {
+          "mention_rate": 1.0,
+          "avg_position": 4.4,
+          "queries": 10
+        },
+        "llama-4-maverick": {
+          "mention_rate": 1.0,
+          "avg_position": 3.6,
+          "queries": 10
+        },
+        "mistral-large": {
+          "mention_rate": 0.8,
+          "avg_position": 3.12,
+          "queries": 10
+        },
+        "deepseek-v3.2": {
+          "mention_rate": 0.9,
+          "avg_position": 3.56,
+          "queries": 10
+        }
+      },
+      "by_specificity": {
+        "vague": {
+          "mention_rate": 1.0,
+          "queries": 12
+        },
+        "medium": {
+          "mention_rate": 0.8125,
+          "queries": 16
+        },
+        "specific": {
+          "mention_rate": 1.0,
+          "queries": 12
+        }
+      }
+    },
+    "Less Annoying CRM": {
+      "mention_rate": 0.925,
+      "avg_position": 1.81,
+      "total_queries": 40,
+      "total_mentions": 37,
+      "tier": "emerging",
+      "cross_model_consistency": "4/4",
+      "by_model": {
+        "gpt-5.4-mini": {
+          "mention_rate": 1.0,
+          "avg_position": 2.4,
+          "queries": 10
+        },
+        "llama-4-maverick": {
+          "mention_rate": 1.0,
+          "avg_position": 1.6,
+          "queries": 10
+        },
+        "mistral-large": {
+          "mention_rate": 0.7,
+          "avg_position": 1.57,
+          "queries": 10
+        },
+        "deepseek-v3.2": {
+          "mention_rate": 1.0,
+          "avg_position": 1.6,
+          "queries": 10
+        }
+      },
+      "by_specificity": {
+        "vague": {
+          "mention_rate": 1.0,
+          "queries": 12
+        },
+        "medium": {
+          "mention_rate": 0.9375,
+          "queries": 16
+        },
+        "specific": {
+          "mention_rate": 0.8333,
+          "queries": 12
+        }
+      }
+    },
+    "Freshsales": {
+      "mention_rate": 0.9,
+      "avg_position": 3.03,
+      "total_queries": 40,
+      "total_mentions": 36,
+      "tier": "emerging",
+      "cross_model_consistency": "4/4",
+      "by_model": {
+        "gpt-5.4-mini": {
+          "mention_rate": 1.0,
+          "avg_position": 2.5,
+          "queries": 10
+        },
+        "llama-4-maverick": {
+          "mention_rate": 1.0,
+          "avg_position": 3.5,
+          "queries": 10
+        },
+        "mistral-large": {
+          "mention_rate": 0.6,
+          "avg_position": 2.83,
+          "queries": 10
+        },
+        "deepseek-v3.2": {
+          "mention_rate": 1.0,
+          "avg_position": 3.2,
+          "queries": 10
+        }
+      },
+      "by_specificity": {
+        "vague": {
+          "mention_rate": 0.8333,
+          "queries": 12
+        },
+        "medium": {
+          "mention_rate": 0.9375,
+          "queries": 16
+        },
+        "specific": {
+          "mention_rate": 0.9167,
+          "queries": 12
+        }
+      }
+    },
+    "Asana": {
+      "mention_rate": 0.975,
+      "avg_position": 2.49,
+      "total_queries": 40,
+      "total_mentions": 39,
+      "tier": "established",
+      "cross_model_consistency": "4/4",
+      "by_model": {
+        "gpt-5.4-mini": {
+          "mention_rate": 1.0,
+          "avg_position": 2.3,
+          "queries": 10
+        },
+        "llama-4-maverick": {
+          "mention_rate": 1.0,
+          "avg_position": 2.8,
+          "queries": 10
+        },
+        "mistral-large": {
+          "mention_rate": 0.9,
+          "avg_position": 2.56,
+          "queries": 10
+        },
+        "deepseek-v3.2": {
+          "mention_rate": 1.0,
+          "avg_position": 2.3,
+          "queries": 10
+        }
+      },
+      "by_specificity": {
+        "vague": {
+          "mention_rate": 1.0,
+          "queries": 12
+        },
+        "medium": {
+          "mention_rate": 1.0,
+          "queries": 16
+        },
+        "specific": {
+          "mention_rate": 0.9167,
+          "queries": 12
+        }
+      }
+    },
+    "Jira": {
+      "mention_rate": 0.775,
+      "avg_position": 3.55,
+      "total_queries": 40,
+      "total_mentions": 31,
+      "tier": "established",
+      "cross_model_consistency": "4/4",
+      "by_model": {
+        "gpt-5.4-mini": {
+          "mention_rate": 0.9,
+          "avg_position": 3.11,
+          "queries": 10
+        },
+        "llama-4-maverick": {
+          "mention_rate": 1.0,
+          "avg_position": 3.6,
+          "queries": 10
+        },
+        "mistral-large": {
+          "mention_rate": 0.4,
+          "avg_position": 3.75,
+          "queries": 10
+        },
+        "deepseek-v3.2": {
+          "mention_rate": 0.8,
+          "avg_position": 3.88,
+          "queries": 10
+        }
+      },
+      "by_specificity": {
+        "vague": {
+          "mention_rate": 0.9167,
+          "queries": 12
+        },
+        "medium": {
+          "mention_rate": 0.75,
+          "queries": 16
+        },
+        "specific": {
+          "mention_rate": 0.6667,
+          "queries": 12
+        }
+      }
+    },
+    "ClickUp": {
+      "mention_rate": 1.0,
+      "avg_position": 1.0,
+      "total_queries": 40,
+      "total_mentions": 40,
+      "tier": "emerging",
+      "cross_model_consistency": "4/4",
+      "by_model": {
+        "gpt-5.4-mini": {
+          "mention_rate": 1.0,
+          "avg_position": 1.0,
+          "queries": 10
+        },
+        "llama-4-maverick": {
+          "mention_rate": 1.0,
+          "avg_position": 1.0,
+          "queries": 10
+        },
+        "mistral-large": {
+          "mention_rate": 1.0,
+          "avg_position": 1.0,
+          "queries": 10
+        },
+        "deepseek-v3.2": {
+          "mention_rate": 1.0,
+          "avg_position": 1.0,
+          "queries": 10
+        }
+      },
+      "by_specificity": {
+        "vague": {
+          "mention_rate": 1.0,
+          "queries": 12
+        },
+        "medium": {
+          "mention_rate": 1.0,
+          "queries": 16
+        },
+        "specific": {
+          "mention_rate": 1.0,
+          "queries": 12
+        }
+      }
+    },
+    "Notion": {
+      "mention_rate": 0.925,
+      "avg_position": 2.76,
+      "total_queries": 40,
+      "total_mentions": 37,
+      "tier": "emerging",
+      "cross_model_consistency": "4/4",
+      "by_model": {
+        "gpt-5.4-mini": {
+          "mention_rate": 0.8,
+          "avg_position": 3.38,
+          "queries": 10
+        },
+        "llama-4-maverick": {
+          "mention_rate": 1.0,
+          "avg_position": 2.6,
+          "queries": 10
+        },
+        "mistral-large": {
+          "mention_rate": 1.0,
+          "avg_position": 2.5,
+          "queries": 10
+        },
+        "deepseek-v3.2": {
+          "mention_rate": 0.9,
+          "avg_position": 2.67,
+          "queries": 10
+        }
+      },
+      "by_specificity": {
+        "vague": {
+          "mention_rate": 0.9167,
+          "queries": 12
+        },
+        "medium": {
+          "mention_rate": 1.0,
+          "queries": 16
+        },
+        "specific": {
+          "mention_rate": 0.8333,
+          "queries": 12
+        }
+      }
+    }
+  },
+  "sentiment_metrics": null
+}

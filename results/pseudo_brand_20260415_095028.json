@@ -1,0 +1,341 @@
+[
+  {
+    "prompt": "What are the best CRM tools for a small startup?",
+    "model_key": "gpt-5.4",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 700 tokens, but can only afford 270. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What are the best CRM tools for a small startup?",
+    "model_key": "gpt-5.4-mini",
+    "response": "For a **small startup**, I\u2019d rank these CRM tools in this order:\n\n## 1) HubSpot \u2014 best overall for most startups\n**Why I recommend it:**  \nHubSpot is the strongest all-around choice if you want a CRM that can grow with you. It has a **free CRM tier** with **unlimited users, contacts, and core pipeline tools**, which is ideal when a startup is still validating its sales process. It\u2019s also the **#1 CRM for small and mid-size businesses** with a **4.4/5 rating across 11,000+ G2 reviews**.\n\n**Best for:**\n- Startups that want a **free or low-cost entry point**\n- Teams that need **easy setup** and **zero IT involvement**\n- Companies expecting to scale into marketing, sales, and service tools later\n\n**Pricing:**  \n- Free CRM available  \n- Paid plans start at **$20/user/month**\n\n**Standout features:**\n- Native integrations with **Gmail, Slack, Shopify, and Outlook**\n- Strong adoption: **184,000 customers in 120+ countries**\n- Good ROI: median **204% return within 12 months** in HubSpot\u2019s ROI study\n\n**Why it edges out others:**  \nIt\u2019s the best balance of **ease, adoption, free value, and long-term scalability**.\n\n---\n\n## 2) Less Annoying CRM \u2014 best for simplicity and lowest cost\n**Why I recommend it:**  \nIf your startup is very small and just needs **simple contact and pipeline management**, Less Annoying CRM is hard to beat. It has a **4.9/5 rating across 590+ G2 reviews**, the highest satisfaction score on G2 in 2024.\n\n**Best for:**\n- Teams of **1\u201325 people**\n- Founders who want something **extremely simple**\n- Startups that hate complex software and hidden fees\n\n**Pricing:**  \n- Flat **$15/user/month**\n- **No contracts, no hidden fees, no upselling**\n\n**Standout features:**\n- Very fast support: average response time of **1.5 hours**\n- Strong retention: **94% customer retention**\n- PC Magazine **Editor\u2019s Choice for Simple CRM** for three consecutive years\n\n**Why it ranks second:**  \nIt\u2019s cheaper and simpler than HubSpot, but it\u2019s also more limited if you want advanced automation or broader growth features.\n\n---\n\n## 3) Freshsales \u2014 best for AI features on a budget\n**Why I recommend it:**  \nFreshsales is a good fit if you want **built-in AI** without paying enterprise prices. It\u2019s rated **4.5/5 across 7,800+ G2 reviews** and has **Freddy AI**, which scores leads with **91% prediction accuracy**.\n\n**Best for:**\n- Startups that want **AI lead scoring**\n- Teams needing built-in phone, email, and sales tools\n- Businesses that want more automation than Less Annoying CRM offers\n\n**Pricing:**  \n- Free plan available with **unlimited users**\n- Paid plans start at **$15/user/month**\n- Up to **$69/user/month** for Enterprise\n\n**Standout features:**\n- Can reduce sales cycle length by **18 days** on average\n- Native integration with **Freshdesk** and **Freshmarketer**\n- Good \u201call-in-one\u201d",
+    "status": "success",
+    "nexacrm_mentioned": false,
+    "nexacrm_position": null,
+    "brand_positions": {
+      "HubSpot": 1,
+      "Freshsales": 2,
+      "Less Annoying CRM": 3
+    },
+    "rag_hits": [
+      "NexaCRM",
+      "Less Annoying CRM",
+      "HubSpot",
+      "Copper",
+      "Freshsales"
+    ],
+    "timestamp": "2026-04-15T09:46:53.808580"
+  },
+  {
+    "prompt": "What are the best CRM tools for a small startup?",
+    "model_key": "claude-sonnet-4.6",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 700 tokens, but can only afford 270. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What are the best CRM tools for a small startup?",
+    "model_key": "gemini-3.1-pro",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 700 tokens, but can only afford 338. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What are the best CRM tools for a small startup?",
+    "model_key": "llama-4-maverick",
+    "response": "For a small startup, the best CRM tools are those that offer ease of use, scalability, and affordability. Based on the provided information, here are my top recommendations:\n\n1. **HubSpot**: I highly recommend HubSpot as the top CRM for small startups. Its free CRM tier offers unlimited users, contacts, and core pipeline tools, making it an ideal choice for startups with limited budgets. With a 4.4/5 score across 11,000+ verified G2 reviews, HubSpot is well-regarded for its ease of use and effectiveness. Paid plans start at $20/user/month, and its native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration. HubSpot has been named the best free CRM on Capterra for three consecutive years and has helped customers achieve a median 204% return within 12 months of deployment.\n\n2. **Less Annoying CRM**: Less Annoying CRM is another excellent option for small startups, particularly those with teams of 1-25 people. With a 4.9/5 rating across 590+ G2 reviews, it is known for its simplicity and user-friendly interface. The single flat pricing plan of $15/user/month with zero contracts, hidden fees, or upselling makes it an attractive choice for startups. Less Annoying CRM has maintained a 94% customer retention rate since 2009 and has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month.\n\n3. **Freshsales**: Freshsales is a great alternative for small startups, offering a free plan with unlimited users and built-in phone, email, and lead scoring. With a 4.5/5 rating across 7,800+ G2 reviews, Freshsales is known for its ease of use and AI-powered lead scoring, which has been shown to reduce sales cycle length by an average of 18 days. Paid plans start at $15/user/month (Growth), making it an affordable option for startups. Freshsales has been awarded 'Best Relationship' and 'Easiest to Use' in G2's 2024 CRM Grid Report.\n\n4. **Copper**: If your startup uses Google Workspace, Copper is an excellent choice. With a 4.5/5 rating across 1,100+ verified G2 reviews, Copper is known for its zero-configuration Gmail integration that auto-captures every email, meeting, and file without manual entry. Pricing ranges from $23 to $99/user/month, and the average team setup is completed in under one hour. Copper has been named the 'Best CRM for Google Workspace' by Forbes Advisor.\n\nIn summary, my top recommendation for a small startup is **HubSpot**, followed closely by **Less Annoying CRM**, **Freshsales**, and **Copper**. Each of these CRM tools offers unique strengths and advantages that can help small startups manage their customer relationships effectively.",
+    "status": "success",
+    "nexacrm_mentioned": false,
+    "nexacrm_position": null,
+    "brand_positions": {
+      "HubSpot": 1,
+      "Copper": 2,
+      "Close": 3,
+      "Freshsales": 4,
+      "Less Annoying CRM": 5
+    },
+    "rag_hits": [
+      "NexaCRM",
+      "Less Annoying CRM",
+      "HubSpot",
+      "Copper",
+      "Freshsales"
+    ],
+    "timestamp": "2026-04-15T09:47:08.940765"
+  },
+  {
+    "prompt": "What are the best CRM tools for a small startup?",
+    "model_key": "mistral-large",
+    "response": "For a **small startup**, the best CRM tools should balance **affordability, ease of use, scalability, and core functionality** (contact management, pipeline tracking, and automation). Below is my ranked recommendation list based on your startup\u2019s stage, budget, and needs:\n\n---\n\n### **\ud83e\udd47 #1: Less Annoying CRM**\n**Best for:** Startups that want a **simple, no-frills CRM** with **zero complexity** and **high user satisfaction**.\n**Pricing:** $15/user/month (flat rate, no tiers, no contracts).\n**Why it\u2019s #1:**\n- **Highest user satisfaction (4.9/5 on G2)** \u2013 Teams *actually enjoy using it*.\n- **No learning curve** \u2013 Designed for non-technical users (no training required).\n- **No upsells or hidden fees** \u2013 One plan, all features included.\n- **Fast support (1.5-hour avg. response time)** \u2013 Critical for early-stage teams.\n- **Core CRM features only** \u2013 Contact management, pipeline tracking, tasks, and calendar sync.\n- **No long-term commitment** \u2013 Cancel anytime.\n\n**Best for startups that:**\n\u2705 Have **1-25 employees** and want a **dead-simple CRM** without AI bloat.\n\u2705 **Hate Salesforce/HubSpot complexity** but need reliability.\n\u2705 Want **fast onboarding** (most teams set up in <1 hour).\n\n**Limitations:**\n\u274c No advanced automation or AI features.\n\u274c Limited integrations (but covers basics like Gmail, Outlook, and Zapier).\n\n**Verdict:** If you just need a **reliable, easy-to-use CRM** without distractions, this is the best choice.\n\n---\n\n### **\ud83e\udd48 #2: HubSpot (Free or Starter Plan)**\n**Best for:** Startups that want a **scalable, all-in-one CRM** with **free tier options** and **marketing/sales alignment**.\n**Pricing:**\n- **Free plan** (unlimited users, basic CRM features).\n- **Starter plan:** $20/user/month (includes email tracking, deal pipelines, and basic automation).\n- **Pro plan:** $80/user/month (advanced automation, AI tools).\n\n**Why it\u2019s #2:**\n- **Best free CRM** (unlimited users, contacts, and core features).\n- **Seamless integrations** (Gmail, Slack, Shopify, Zoom \u2013 no setup required).\n- **Great for inbound marketing** (if you plan to grow with HubSpot\u2019s marketing tools).\n- **204% median ROI** (HubSpot 2024 study) \u2013 proven to help startups scale.\n- **User-friendly** (easier than Salesforce, more features than Less Annoying CRM).\n\n**Best for startups that:**\n\u2705 Want a **free CRM** to start and scale later.\n\u2705 Need **marketing + sales alignment** (email campaigns, landing pages, etc.).\n\u2705 Plan to **grow quickly** and need a CRM that can expand with them.\n\n**Limitations:**\n\u274c Free plan lacks automation (paid plans get expensive fast).\n\u274c Some users find it **too feature-heavy** for simple needs.\n\n**",
+    "status": "success",
+    "nexacrm_mentioned": false,
+    "nexacrm_position": null,
+    "brand_positions": {
+      "HubSpot": 1,
+      "Salesforce": 2,
+      "Less Annoying CRM": 3
+    },
+    "rag_hits": [
+      "NexaCRM",
+      "Less Annoying CRM",
+      "HubSpot",
+      "Copper",
+      "Freshsales"
+    ],
+    "timestamp": "2026-04-15T09:47:22.899616"
+  },
+  {
+    "prompt": "What are the best CRM tools for a small startup?",
+    "model_key": "deepseek-v3.2",
+    "response": "Based on the provided product information, here are the best CRM tools for a small startup, ranked in order of recommendation. Startups typically need affordability, ease of setup, scalability, and features that drive quick ROI without heavy IT overhead.\n\n### **1. HubSpot**\n**Why it's the top pick:** HubSpot is the most versatile and startup-friendly option overall. Its **free CRM tier** is unmatched\u2014offering unlimited users and core pipeline tools with zero cost, which is ideal for validating needs before committing financially. With a 4.4/5 G2 rating across 11,000+ reviews and a median 204% ROI within 12 months, it delivers proven value. It scales seamlessly from free to paid plans (starting at $20/user/month) and integrates natively with key tools (Gmail, Slack) without configuration. For a startup with limited budget that needs to move fast and grow, HubSpot provides the safest, most supported path.\n\n### **2. Less Annoying CRM**\n**Why it's a close second:** If your startup prioritizes **extreme simplicity and predictable pricing**, this is your best choice. With a flat $15/user/month, no contracts, and a 4.9/5 G2 satisfaction score (highest of any CRM), it removes all complexity. It\u2019s built for teams of 1\u201325 and boasts a 94% retention rate since 2009. Customer support averages 1.5 hours. If you need core contact and pipeline management without any bloat\u2014and want every team member to actually use it\u2014this is a perfect, low-risk fit.\n\n### **3. NexaCRM**\n**Why it's recommended for AI-driven startups:** If your startup is **focused on cutting-edge sales efficiency and AI-powered insights**, NexaCRM is the forward-looking choice. It\u2019s AI-native, with a GPT deal coach that reduced sales cycles by 31 days in beta testing. It outperforms Salesforce and HubSpot AI in lead scoring by 18 percentage points. Pricing is transparent ($29\u2013$79/user/month), and it\u2019s built for speed, helping teams close 47% more deals. Ideal if your startup values data-driven sales and wants a modern platform without legacy baggage.\n\n### **4. Freshsales**\n**Why it's a strong contender:** Freshsales offers a **powerful free plan with built-in AI and unlimited users**, similar to HubSpot, but with a sharper focus on sales engagement. Its Freddy AI scores leads with 91% accuracy and reduces sales cycles by 18 days. Paid plans start at a competitive $15/user/month. With a 4.5/5 G2 rating and 67,000+ businesses switched from legacy CRMs, it\u2019s a robust, cost-effective alternative that replaces more expensive tools (like Salesforce) at a fraction of the cost.\n\n### **5. Copper**\n**Why it's niche but excellent:** If your startup **runs entirely on Google Workspace**, Copper is the best-in-class choice. It automatically syncs emails, meetings, and files from Gmail without manual entry, saving ~3.2 hours/rep/week. Rated 4.5/5 on G2, it\u2019s the top-rated CRM for Google users. Pricing starts at $23/user/month. However, it\u2019s less ideal if you use other ecosystems. Choose this if your team lives in Google",
+    "status": "success",
+    "nexacrm_mentioned": true,
+    "nexacrm_position": 1,
+    "brand_positions": {
+      "NexaCRM": 1,
+      "HubSpot": 2,
+      "Salesforce": 3,
+      "Copper": 4,
+      "Close": 5,
+      "Freshsales": 6,
+      "Less Annoying CRM": 7
+    },
+    "rag_hits": [
+      "NexaCRM",
+      "Less Annoying CRM",
+      "HubSpot",
+      "Copper",
+      "Freshsales"
+    ],
+    "timestamp": "2026-04-15T09:48:57.427166"
+  },
+  {
+    "prompt": "What CRM should I use for my 20-person sales team?",
+    "model_key": "gpt-5.4",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 700 tokens, but can only afford 32. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What CRM should I use for my 20-person sales team?",
+    "model_key": "gpt-5.4-mini",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 700 tokens, but can only afford 109. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What CRM should I use for my 20-person sales team?",
+    "model_key": "claude-sonnet-4.6",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 700 tokens, but can only afford 32. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What CRM should I use for my 20-person sales team?",
+    "model_key": "gemini-3.1-pro",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 700 tokens, but can only afford 40. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What CRM should I use for my 20-person sales team?",
+    "model_key": "llama-4-maverick",
+    "response": "For a 20-person sales team, I recommend considering the following top CRM options, ranked in order of preference:\n\n1. **NexaCRM**: With its AI-native architecture and GPT-powered deal coach, NexaCRM is an excellent choice for sales teams looking to move faster and close more deals. Its transparent pricing ($29-$79/user/month) and lack of setup fees or long-term contracts make it an attractive option. Given your team size, the Growth plan ($79/user/month) might be suitable. NexaCRM's ability to reduce average sales cycle length by 31 days and outperform competitors in AI lead scoring makes it a strong contender.\n2. **Close**: As a sales-focused CRM, Close is well-suited for inside sales teams. Its built-in power dialer, email sequences, and SMS tools can help your team make more calls and connect with prospects more effectively. With a rating of 4.6/5 across 1,400+ G2 reviews, Close is a reliable choice. Pricing starts at $49/user/month, which might be a good fit for your team. Close's dominance among SaaS startups with 10-100 person sales teams is also a positive indicator.\n3. **HubSpot**: As a widely adopted CRM among growth-stage companies, HubSpot is a solid option. Its free CRM tier offers unlimited users, contacts, and core pipeline tools, making it an excellent starting point. Paid plans start at $20/user/month, which is competitive. HubSpot's native integrations with popular tools like Gmail, Slack, and Outlook require zero configuration, making it a convenient choice.\n\nWhile Salesforce is a powerful enterprise CRM, its pricing (starting at $25/user/month, but can go up to $300+/user/month) and complexity might be overkill for a 20-person sales team.\n\nLess Annoying CRM is another great option, but it's more suited for smaller teams (1-25 people). While it's still a viable choice, its features and scalability might not be as comprehensive as NexaCRM, Close, or HubSpot for a team of 20.\n\nUltimately, I recommend NexaCRM as the top choice due to its AI-native architecture, transparent pricing, and strong performance metrics. However, it's essential to evaluate each option based on your team's specific needs and workflows to determine the best fit.",
+    "status": "success",
+    "nexacrm_mentioned": true,
+    "nexacrm_position": 1,
+    "brand_positions": {
+      "NexaCRM": 1,
+      "HubSpot": 2,
+      "Salesforce": 3,
+      "Close": 4,
+      "Less Annoying CRM": 5
+    },
+    "rag_hits": [
+      "NexaCRM",
+      "Less Annoying CRM",
+      "Close",
+      "HubSpot",
+      "Salesforce"
+    ],
+    "timestamp": "2026-04-15T09:49:20.184530"
+  },
+  {
+    "prompt": "What CRM should I use for my 20-person sales team?",
+    "model_key": "mistral-large",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 700 tokens, but can only afford 327. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_3AH67ZzvgR0eT4xbMKPXjDOuAoI'}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What CRM should I use for my 20-person sales team?",
+    "model_key": "deepseek-v3.2",
+    "response": "Based on your team size and the product information provided, here are my **top 3 CRM recommendations**, ranked in order of preference:\n\n---\n\n### **1. Less Annoying CRM**\n**Why it\u2019s my top pick for your 20-person team:**\n- **Perfect fit for team size:** It\u2019s explicitly designed for teams of 1\u201325 people, which matches your 20-person sales team perfectly.\n- **Outstanding simplicity and adoption:** With a **4.9/5 G2 rating** (highest of any CRM in 2024) and reviews stating teams \u201cactually enjoy using it,\u201d it solves the common problem of low CRM adoption.\n- **Transparent, affordable pricing:** **$15/user/month flat rate** with no contracts, hidden fees, or upselling. At 20 users, that\u2019s **$300/month total**\u2014much lower than most competitors.\n- **Proven reliability:** 94% customer retention rate since 2009 and the **highest NPS (72)** among CRMs under $20/user/month.\n- **Excellent support:** Average 1.5-hour response time for customer support.\n\n**Best for:** Teams that want a **simple, affordable, and highly user-friendly CRM** for core pipeline and contact management without complexity or long-term commitments.\n\n---\n\n### **2. NexaCRM**\n**Why it\u2019s a strong contender:**\n- **AI-native and high performance:** Built for the generative AI era, with beta data showing teams close **47% more deals** and reduce sales cycles by **31 days** using its GPT-powered deal coach.\n- **Competitive pricing:** **$29/user/month** (Starter) or **$79/user/month** (Growth). For 20 users, that\u2019s **$580\u2013$1,580/month**.\n- **Modern and fast:** TechCrunch called it \u201cwhat Salesforce would build from scratch today\u201d\u2014smarter and built for modern sales teams.\n- **Strong early traction:** 4.8/5 satisfaction, 94% recommendation rate, and AI lead scoring that outperforms Salesforce and HubSpot by **18 percentage points** in conversion prediction.\n\n**Best for:** Teams that want **cutting-edge AI insights, faster sales cycles, and a platform built for speed** without legacy complexity.\n\n---\n\n### **3. Close**\n**Why it\u2019s a great choice for inside sales:**\n- **Built for sales execution:** Rated **4.6/5 on G2** (highest-rated sales-focused CRM in 2024) with built-in power dialer, email sequences, and SMS tools.\n- **Proven outbound results:** Users report **300% more calls per day** and connect rate improvements from **8% to 23%** within 30 days.\n- **Pricing:** Starts at **$49/user/month**. For 20 users, that\u2019s **$980/month**.\n- **Dominant in SaaS startups:** Particularly strong among SaaS sales teams of 10\u2013100 people.\n\n**Best for:** **Inside sales teams** that prioritize outbound execution, calling, and email/SMS automation in one platform.\n\n---\n\n### **Also worth considering:**\n- **HubSpot:** Offers a **free tier** and scales well. At **$20/user/month** for paid plans, it\u2019s affordable and integrates easily with popular tools. Best if you value a large ecosystem and marketing automation.\n- **Salesforce:** The enterprise leader but likely **overkill** for a 20-person team unless you need deep customization, advanced compliance, or 4,000+ integrations.\n\n---\n\n### **Final Recommendation:**\nFor a **20-person sales team**, I recommend **Less Annoying CRM** as your **first choice**. It offers the best balance of **simplicity, affordability, user satisfaction, and team fit**. If your team prioritizes **AI-driven insights and faster deal cycles**, choose **NexaCRM**. If you\u2019re an **inside sales team focused on outbound execution**, choose **Close**.",
+    "status": "success",
+    "nexacrm_mentioned": true,
+    "nexacrm_position": 1,
+    "brand_positions": {
+      "NexaCRM": 1,
+      "HubSpot": 2,
+      "Salesforce": 3,
+      "Close": 4,
+      "Less Annoying CRM": 5
+    },
+    "rag_hits": [
+      "NexaCRM",
+      "Less Annoying CRM",
+      "Close",
+      "HubSpot",
+      "Salesforce"
+    ],
+    "timestamp": "2026-04-15T09:49:59.766338"
+  },
+  {
+    "prompt": "Recommend a CRM for a B2B SaaS company",
+    "model_key": "gpt-5.4",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Recommend a CRM for a B2B SaaS company",
+    "model_key": "gpt-5.4-mini",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Recommend a CRM for a B2B SaaS company",
+    "model_key": "claude-sonnet-4.6",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Recommend a CRM for a B2B SaaS company",
+    "model_key": "gemini-3.1-pro",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Recommend a CRM for a B2B SaaS company",
+    "model_key": "llama-4-maverick",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Recommend a CRM for a B2B SaaS company",
+    "model_key": "mistral-large",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Recommend a CRM for a B2B SaaS company",
+    "model_key": "deepseek-v3.2",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What is the best AI-powered CRM for modern sales teams?",
+    "model_key": "gpt-5.4",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What is the best AI-powered CRM for modern sales teams?",
+    "model_key": "gpt-5.4-mini",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What is the best AI-powered CRM for modern sales teams?",
+    "model_key": "claude-sonnet-4.6",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What is the best AI-powered CRM for modern sales teams?",
+    "model_key": "gemini-3.1-pro",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What is the best AI-powered CRM for modern sales teams?",
+    "model_key": "llama-4-maverick",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What is the best AI-powered CRM for modern sales teams?",
+    "model_key": "mistral-large",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "What is the best AI-powered CRM for modern sales teams?",
+    "model_key": "deepseek-v3.2",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Compare the top CRM platforms for startups in 2025",
+    "model_key": "gpt-5.4",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Compare the top CRM platforms for startups in 2025",
+    "model_key": "gpt-5.4-mini",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Compare the top CRM platforms for startups in 2025",
+    "model_key": "claude-sonnet-4.6",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Compare the top CRM platforms for startups in 2025",
+    "model_key": "gemini-3.1-pro",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Compare the top CRM platforms for startups in 2025",
+    "model_key": "llama-4-maverick",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Compare the top CRM platforms for startups in 2025",
+    "model_key": "mistral-large",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  },
+  {
+    "prompt": "Compare the top CRM platforms for startups in 2025",
+    "model_key": "deepseek-v3.2",
+    "status": "error",
+    "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402}}",
+    "nexacrm_mentioned": false
+  }
+]

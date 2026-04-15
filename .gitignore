@@ -3,9 +3,10 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-results/*.json
 *.egg-info/
 dist/
 build/
 .DS_Store
 data/chroma_db/
+data/chroma_db_iter*/
+data/brands_full_backup.json

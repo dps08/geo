@@ -27,15 +27,11 @@ CATEGORIES = {
             "established": [
                 "Salesforce",
                 "HubSpot",
-                "Zoho CRM",
-                "Microsoft Dynamics 365",
             ],
             "emerging": [
                 "Copper",
-                "Close",
-                "Freshsales",
                 "Less Annoying CRM",
-                "Pipedrive",
+                "Freshsales",
             ],
         },
     },
@@ -44,15 +40,10 @@ CATEGORIES = {
         "brands": {
             "established": [
                 "Asana",
-                "Monday.com",
                 "Jira",
-                "Microsoft Project",
             ],
             "emerging": [
-                "Basecamp",
-                "Teamwork",
                 "ClickUp",
-                "Wrike",
                 "Notion",
             ],
         },
@@ -67,27 +58,17 @@ PROMPT_TEMPLATES = {
         "What's the best {category}?",
         "Recommend a {category} for me.",
         "Which {category} should I use?",
-        "What {category} do you recommend?",
-        "Top {category} options?",
     ],
     "medium": [
         "Best {category} for startups",
         "Best {category} for small businesses",
-        "Top {category} for teams under 50 people",
         "Most affordable {category} for growing companies",
         "Best {category} for remote teams",
-        "Which {category} has the best free plan?",
-        "Best {category} for B2B companies",
-        "Most user-friendly {category} for beginners",
     ],
     "specific": [
         "Best {category} for a 50-person B2B SaaS startup under $20K/year that integrates with Slack and Gmail",
         "Which {category} is best for a real estate agency managing 200 leads per month with a budget of $500/month?",
         "Best {category} for a remote marketing team of 15 people who need Kanban boards and time tracking",
-        "Recommend a {category} for a nonprofit with 30 employees that needs donor tracking and email integration",
-        "Best {category} for a freelance consultant who needs mobile access and simple invoicing",
-        "Which {category} works best for an e-commerce company with 100 employees managing multiple sales pipelines?",
-        "Best {category} for a healthcare startup that needs HIPAA compliance and patient record management",
     ],
 }
 

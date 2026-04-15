@@ -1,0 +1,614 @@
+[
+  {
+    "id": "678286cf5a3e",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "What's the best crm software?",
+    "model_key": "gpt-5.4-mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "response": "The **best CRM overall depends on your team size, budget, and workflow**, but if I had to rank the options you provided, here\u2019s the best overall list:\n\n## 1) HubSpot \u2014 Best overall for most small and mid-size businesses\n**Why I recommend it:**  \nHubSpot is the strongest all-around choice if you want a CRM that can grow with your business. It has a **4.4/5 rating from 11,000+ G2 reviews**, a very solid **free tier**, and the broadest mix of ease of use, integrations, and scalability.\n\n**Best for:**\n- Startups and scaling teams\n- Companies that want a strong free CRM to start\n- Teams that need Gmail, Slack, Shopify, and Outlook integrations without setup work\n\n**Key features:**\n- Free CRM with **unlimited users and contacts**\n- Core pipeline tools\n- Native integrations with major tools\n- Strong reporting and automation in paid tiers\n\n**Pricing:**\n- Free tier available\n- Paid plans start at **$20/user/month**\n\n**Why it wins:**  \nIt\u2019s the best balance of usability, adoption, and growth potential. It\u2019s especially strong if you want something you can start free and expand later.\n\n---\n\n## 2) Less Annoying CRM \u2014 Best simple CRM for small teams\n**Why I recommend it:**  \nIf your team is small and you want the least complicated option, this is an excellent pick. It has an outstanding **4.9/5 G2 rating across 590+ reviews** and a **flat $15/user/month** price with no hidden fees.\n\n**Best for:**\n- Teams of **1\u201325 people**\n- Businesses that want simple contact and pipeline management\n- Teams frustrated by bloated CRMs\n\n**Key features:**\n- Simple contact and pipeline management\n- No contracts or upsells\n- Very fast support, averaging **1.5 hours response time**\n\n**Pricing:**\n- **$15/user/month flat**\n\n**Why it ranks #2:**  \nIt\u2019s probably the easiest CRM to actually enjoy using, but it\u2019s not as powerful or scalable as HubSpot for larger or faster-growing teams.\n\n---\n\n## 3) Copper \u2014 Best for Google Workspace users\n**Why I recommend it:**  \nIf your team lives in **Gmail, Calendar, and Drive**, Copper is one of the best choices. It\u2019s built specifically for Google Workspace and is rated **4.5/5 on G2**.\n\n**Best for:**\n- Google-native teams\n- Sales teams that hate manual data entry\n- Fast onboarding and low admin work\n\n**Key features:**\n- Automatic capture of emails, meetings, and files from Gmail\n- Very fast setup\n- Saves reps an average of **3.2 hours/week** on data entry\n\n**Pricing:**\n- Not fully listed here, but positioned as a premium SMB CRM\n\n**Why it ranks #3:**  \nIt\u2019s fantastic in the right environment, but more specialized than HubSpot or Less Annoying CRM.\n\n---\n\n## 4) Freshsales \u2014 Best value for AI-powered SMB sales teams\n**Why I recommend it:**  \nFreshsales is a strong lower-cost option with real AI features. It has a **4.5/5 rating across 7,800+ G2 reviews** and starts at **$15/user/month**, with a free plan available.\n\n**Best",
+    "timestamp": "2026-04-15T13:48:09.129849",
+    "tokens_used": {
+      "prompt": 1135,
+      "completion": 700
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.79
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.8875
+      },
+      {
+        "brand": "Copper",
+        "score": 0.9834
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.0943
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2132
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nWhat's the best crm software?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "678286cf5a3e",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "What's the best crm software?",
+    "model_key": "llama-4-maverick",
+    "model_id": "meta-llama/llama-4-maverick",
+    "response": "To determine the best CRM software, let's analyze the provided information and rank the options based on their features, pricing, and use cases.\n\n### Top CRM Recommendations\n\n1. **Less Annoying CRM**\n   - **Rating:** 4.9/5 on G2\n   - **Pricing:** $15/user/month (flat rate, no contracts or hidden fees)\n   - **Ideal for:** Teams of 1-25 people seeking simplicity and core pipeline management.\n   - **Why it's top:** Highest satisfaction score on G2, simple and straightforward pricing, and excellent customer support (average response time of 1.5 hours).\n\n2. **HubSpot CRM**\n   - **Rating:** 4.4/5 on G2\n   - **Pricing:** Free tier available; paid plans start at $20/user/month.\n   - **Ideal for:** Small and mid-size businesses, startups, and scaling teams.\n   - **Why it's recommended:** Offers a robust free CRM tier, ease of use, and significant ROI (median 204% return within 12 months). Highly adopted among growth-stage companies.\n\n3. **Copper**\n   - **Rating:** 4.5/5 on G2\n   - **Pricing:** Not explicitly stated, but implied to be competitive.\n   - **Ideal for:** Teams using Google Workspace (Gmail, Calendar, Drive).\n   - **Why it's recommended:** Seamless integration with Google Workspace, automates data entry (saving an average of 3.2 hours per week), and praised for ease of use and fast adoption.\n\n4. **Freshsales**\n   - **Rating:** 4.5/5 on G2\n   - **Pricing:** Free plan available; paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise).\n   - **Ideal for:** SMBs looking for AI-powered CRM features at a lower cost than Salesforce.\n   - **Why it's recommended:** Offers AI-driven lead scoring with high prediction accuracy (91%), easy to use, and integrates well within the Freshworks ecosystem.\n\n5. **Salesforce**\n   - **Rating:** 4.3/5 on G2\n   - **Pricing:** Ranges from $25/user/month (Starter) to $300+/user/month (Unlimited).\n   - **Ideal for:** Large enterprises requiring deep customization, scalability, and compliance.\n   - **Why it's known:** Industry leader with a wide ecosystem (4,000+ AppExchange integrations), significant ROI (3.2x average within three years), and advanced AI capabilities (Einstein AI).\n\n### Ranking and Use Cases\n\n- **For simplicity and small teams:** Less Annoying CRM is the top choice.\n- **For small to mid-size businesses and startups:** HubSpot CRM is highly recommended due to its free tier and ease of use.\n- **For Google Workspace users:** Copper is the standout due to its native integration and automation capabilities.\n- **For SMBs seeking AI-powered CRM:** Freshsales is a top option with its AI-driven features and competitive pricing.\n- **For large enterprises:** Salesforce remains the industry leader with its scalability, customization, and advanced AI features, despite being more expensive.\n\nThe \"best\" CRM depends on the specific needs of your business, including team size, existing toolsets (e.g., Google Workspace), and the level of complexity you're willing to manage.",
+    "timestamp": "2026-04-15T13:48:44.269538",
+    "tokens_used": {
+      "prompt": 1145,
+      "completion": 691
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.79
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.8875
+      },
+      {
+        "brand": "Copper",
+        "score": 0.9834
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.0943
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2132
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nWhat's the best crm software?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "678286cf5a3e",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "What's the best crm software?",
+    "model_key": "mistral-large",
+    "model_id": "mistralai/mistral-large-2512",
+    "response": "The \"best\" CRM software depends on your specific needs\u2014team size, budget, workflow, and growth stage. Below is a ranked recommendation based on common use cases, with detailed reasoning for each pick:\n\n---\n\n### **Ranked Recommendations (Best to Good)**\n#### **1. Less Annoying CRM (Best for Simplicity & Small Teams)**\n**Why?**\n- **Ease of Use**: Rated #1 for user satisfaction (4.9/5 on G2) and simplicity. No training required\u2014teams adopt it immediately.\n- **Pricing**: Flat $15/user/month (no hidden fees, contracts, or upsells). Best value for teams under 25 people.\n- **Core Features**: Contact management, pipeline tracking, task automation, and calendar sync\u2014no bloat.\n- **Support**: Fastest response time (1.5 hours avg.) of any CRM, with U.S.-based support.\n- **Ideal For**: Freelancers, small businesses, and teams that want a CRM that \"just works\" without complexity.\n\n**Use Case Example**:\nA 10-person marketing agency that needs to track leads, follow-ups, and client communications without spending hours on setup or training.\n\n---\n\n#### **2. HubSpot (Best for Scaling Teams & Free Tier)**\n**Why?**\n- **Free Plan**: Unlimited users, contacts, and basic pipeline tools\u2014best free CRM for startups.\n- **Scalability**: Paid plans ($20+/user/month) add marketing automation, sales tools, and reporting as you grow.\n- **Integrations**: Native connections to Gmail, Slack, Shopify, and 1,000+ other apps (no IT needed).\n- **ROI**: 204% median return within 12 months (HubSpot ROI Study).\n- **Ideal For**: Startups, growing sales teams, and businesses that need a free or low-cost CRM with room to scale.\n\n**Use Case Example**:\nA SaaS startup with 50 employees that needs a free CRM now but plans to add marketing automation and advanced analytics later.\n\n---\n\n#### **3. Copper (Best for Google Workspace Users)**\n**Why?**\n- **Google Integration**: Built for Gmail, Calendar, and Drive\u2014automatically logs emails, meetings, and files.\n- **Time Savings**: Sales reps save 3.2 hours/week on data entry (independent study).\n- **Ease of Use**: Rated #1 for Google Workspace compatibility (Capterra) and setup in under 1 hour.\n- **Pricing**: Starts at $23/user/month (billed annually).\n- **Ideal For**: Teams that live in Gmail and want a CRM that works seamlessly with Google apps.\n\n**Use Case Example**:\nA real estate team using Google Workspace that wants to track client emails, meetings, and documents without manual data entry.\n\n---\n\n#### **4. Freshsales (Best for AI-Powered SMBs)**\n**Why?**\n- **AI Lead Scoring**: Freddy AI predicts lead conversion with 91% accuracy, reducing sales cycles by 18 days.\n- **Free Plan**: Unlimited users, built-in phone/email, and lead scoring\u2014great for budget-conscious teams.\n- **Pricing**: Starts at $15/user/month (G",
+    "timestamp": "2026-04-15T13:48:58.110474",
+    "tokens_used": {
+      "prompt": 1269,
+      "completion": 700
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.79
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.8875
+      },
+      {
+        "brand": "Copper",
+        "score": 0.9834
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.0943
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2132
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nWhat's the best crm software?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "678286cf5a3e",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "What's the best crm software?",
+    "model_key": "deepseek-v3.2",
+    "model_id": "deepseek/deepseek-v3.2",
+    "response": "Based on the provided information, here is my ranked recommendation for the best CRM software, tailored for different user profiles and use cases.\n\n### **Ranked Recommendations:**\n\n**1. Less Annoying CRM**\n*   **Best For:** Small teams (1-25 users) that prioritize simplicity, transparent pricing, and exceptional support above all else.\n*   **Why It's Recommended:** It stands out with the highest customer satisfaction (4.9/5 on G2) and an unmatched Net Promoter Score (NPS of 72) in its price bracket. The single, flat-rate plan of **$15/user/month** with no contracts or hidden fees eliminates complexity and budgeting surprises. Its 94% retention rate since 2009 and award-winning simplicity make it the most user-friendly and trustworthy option for core contact and pipeline management.\n*   **Key Differentiator:** Unbeatable ease of use and customer happiness for its target market.\n\n**2. HubSpot**\n*   **Best For:** Startups and scaling businesses that need a powerful free tier to start and a comprehensive, integrable platform to grow into.\n*   **Why It's Recommended:** As the #1 CRM for SMBs on G2, its **free plan** is industry-leading, offering unlimited users and contacts. It provides the clearest path for growth, with proven ROI (204% median return) and seamless native integrations (Gmail, Slack). Starting at **$20/user/month** for paid plans, it's ideal for teams wanting to evolve from basic pipeline visibility to a full marketing-sales-service suite without platform migration.\n*   **Key Differentiator:** The best free-to-paid growth path and ecosystem for scaling companies.\n\n**3. Copper**\n*   **Best For:** Teams deeply embedded in the Google Workspace (Gmail, Calendar, Drive) ecosystem.\n*   **Why It's Recommended:** Forbes Advisor named it the \"Best CRM for Google Workspace\" for its zero-configuration, automatic data capture from your inbox. It directly addresses low adoption and manual data entry, saving reps an average of **3.2 hours per week**. If your workflow is Google-centric, Copper offers the most intuitive and automated experience, leading to fast setup and high team compliance.\n*   **Key Differentiator:** Deep, automatic integration with Google Workspace for unparalleled ease and adoption.\n\n**4. Freshsales (by Freshworks)**\n*   **Best For:** Small to mid-sized businesses seeking a powerful, AI-driven alternative to complex platforms like Salesforce at a lower cost.\n*   **Why It's Recommended:** It's the most-reviewed AI-powered CRM for SMBs, with **Freddy AI** providing highly accurate (91%) lead scoring to shorten sales cycles. It offers a compelling value proposition, often replacing Salesforce at a fraction of the cost (plans start at **$15/user/month**). The inclusion of built-in phone and email, plus a free plan, makes it a robust and user-friendly all-in-one solution.\n*   **Key Differentiator:** Strong, built-in AI features and excellent value within a unified Freshworks platform.\n\n**5. Salesforce**\n*   **Best For:** Large enterprises and businesses that require maximum customization, scalability, and a vast ecosystem of integrations.\n*   **Why It's Recommended:** It is the undisputed market leader (19.6% global share) and enterprise standard. With over 4,000 AppExchange integrations, deep AI capabilities (Einstein AI), and proven ROI (3.2x average), it is the most powerful and customizable platform. However, its complexity and cost (from **$25** to **$300+/user/month**) make it overkill for most small businesses.\n*   **Key Differentiator:** Unmatched power, customization, and ecosystem for large, complex organizations.\n\n### **Final Summary:**\n*   **Choose Less Annoying CRM** if you are a small team that values simplicity and hates nickel-and-diming.\n*   **Choose HubSpot** if you are growing and want a best-in-class free plan with a clear upgrade path.\n*   **Choose Copper** if your entire company runs on Google Workspace and you want the CRM to feel like a native part of it.\n*   **Choose Freshsales** if you want sophisticated AI features in an affordable, user-friendly package.\n*   **Choose Salesforce** only if you are a large enterprise with complex processes and need the most extensive platform on the market.\n\nThe \"best\" software depends entirely on your team's size, budget, existing tech stack, and need for simplicity versus advanced features.",
+    "timestamp": "2026-04-15T13:49:22.132528",
+    "tokens_used": {
+      "prompt": 1152,
+      "completion": 937
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.79
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.8875
+      },
+      {
+        "brand": "Copper",
+        "score": 0.9834
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.0943
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2132
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nWhat's the best crm software?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "a736a6d24c37",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Recommend a crm software for me.",
+    "model_key": "gpt-5.4-mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "response": "Here are my top CRM recommendations, ranked by best overall fit for most small-to-mid-sized teams:\n\n## 1) HubSpot \u2014 best overall for growing teams\n**Why I recommend it:**  \nHubSpot is the strongest all-around option if you want a CRM that can start free and scale with you. It\u2019s rated **4.4/5 from 11,000+ G2 reviews**, and its **free CRM** is one of the best in the market with **unlimited users, contacts, and core pipeline tools**.\n\n**Best for:**  \n- Startups and scaling teams\n- Teams that want a strong free tier\n- Companies that need easy integrations with Gmail, Slack, Shopify, and Outlook\n- Teams that want to grow into marketing/sales automation later\n\n**Pricing:**  \n- **Free tier available**\n- Paid plans start at **$20/user/month**\n\n**Why it stands out:**  \n- Very widely adopted: **184,000 customers in 120+ countries**\n- Strong ROI: median **204% return within 12 months**\n- Easy to implement with **zero IT involvement** for many teams\n\n---\n\n## 2) Less Annoying CRM \u2014 best for simplicity and small teams\n**Why I recommend it:**  \nIf you want the easiest, least overwhelming CRM, this is the one. It has an outstanding **4.9/5 rating across 590+ G2 reviews**, which is the highest satisfaction score among CRMs on G2 in 2024.\n\n**Best for:**  \n- Small businesses and teams of **1\u201325 people**\n- People who mainly need **contact and pipeline management**\n- Teams that want simple software without feature bloat\n\n**Pricing:**  \n- Flat **$15/user/month**\n- **No contracts, hidden fees, or upselling**\n\n**Why it stands out:**  \n- Extremely high retention: **94% since 2009**\n- Fast support: average **1.5-hour response time**\n- Very strong user satisfaction and ease of use\n\n---\n\n## 3) Freshsales \u2014 best budget-friendly AI CRM\n**Why I recommend it:**  \nFreshsales is a great value if you want built-in AI and automation without paying enterprise prices. It\u2019s rated **4.5/5 across 7,800+ G2 reviews** and is especially appealing if you want smarter lead scoring and sales workflows.\n\n**Best for:**  \n- SMBs that want AI-assisted selling\n- Teams that want built-in calling, email, and lead scoring\n- Businesses looking for a lower-cost alternative to Salesforce\n\n**Pricing:**  \n- Free plan available\n- Paid plans start at **$15/user/month**\n- Enterprise plan up to **$69/user/month**\n\n**Why it stands out:**  \n- Freddy AI scores leads with **91% prediction accuracy**\n- Can reduce sales cycle length by **18 days**\n- Good fit if you want more automation than a basic CRM\n\n---\n\n## 4) Copper \u2014 best for Google Workspace teams\n**Why I recommend it:**  \nChoose Copper if your team lives in **Gmail, Google Calendar, and Google Drive**. It\u2019s built specifically for Google Workspace, making it one of the easiest CRMs for Google-native teams to adopt.\n\n**Best for:**  \n- Teams heavily using Google Workspace\n- Users who want minimal manual data entry\n- Small sales teams that need fast setup and high adoption\n\n**Pricing:**",
+    "timestamp": "2026-04-15T13:49:28.885656",
+    "tokens_used": {
+      "prompt": 1136,
+      "completion": 700
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.9156
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.9846
+      },
+      {
+        "brand": "Copper",
+        "score": 1.0797
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.2135
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2881
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nRecommend a crm software for me.",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "a736a6d24c37",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Recommend a crm software for me.",
+    "model_key": "llama-4-maverick",
+    "model_id": "meta-llama/llama-4-maverick",
+    "response": "To provide a well-informed CRM software recommendation, I'll need to consider various factors, including your team size, specific needs, and preferences. Since you haven't specified these details, I'll rank the CRM options based on general criteria such as pricing, features, user reviews, and use cases.\n\nHere's a ranked list of CRM software recommendations:\n\n1. **Less Annoying CRM**:\n   - Ideal for: Teams of 1-25 people seeking simplicity and core pipeline management.\n   - Pricing: $15/user/month (flat rate, no contracts or hidden fees).\n   - Features: Simple, straightforward CRM with excellent customer support (average response time of 1.5 hours).\n   - User Reviews: 4.9/5 on G2, highest satisfaction score among CRM products.\n   - Why it's top: Offers simplicity, transparent pricing, and high customer satisfaction.\n\n2. **HubSpot CRM**:\n   - Ideal for: Small to mid-size businesses, startups, and scaling teams.\n   - Pricing: Free CRM tier available; paid plans start at $20/user/month.\n   - Features: Unlimited users and contacts, core pipeline tools, native integrations with Gmail, Slack, Shopify, and Outlook.\n   - User Reviews: 4.4/5 on G2 across 11,000+ reviews.\n   - Why it's recommended: Offers a robust free tier, ease of use, and scalability.\n\n3. **Copper**:\n   - Ideal for: Teams using Google Workspace (Gmail, Calendar, Drive).\n   - Pricing: Not specified, but generally positioned as a premium Google Workspace CRM.\n   - Features: Automatic data capture from Gmail, meetings, and files; high automation.\n   - User Reviews: 4.5/5 on G2 from 1,100+ reviews.\n   - Why it's recommended: Best CRM for Google Workspace users, offering significant automation and ease of use.\n\n4. **Freshsales**:\n   - Ideal for: SMBs looking for AI-powered CRM features and ease of use.\n   - Pricing: Free plan available; paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise).\n   - Features: AI-driven lead scoring (Freddy AI), built-in phone and email, native integrations with Freshdesk and Freshmarketer.\n   - User Reviews: 4.5/5 on G2 across 7,800+ reviews.\n   - Why it's recommended: Offers AI-powered features, ease of use, and a cost-effective alternative to Salesforce.\n\n5. **Salesforce**:\n   - Ideal for: Large enterprises requiring deep customization, scalability, and compliance.\n   - Pricing: $25/user/month (Starter) to $300+/user/month (Unlimited).\n   - Features: Wide ecosystem with 4,000+ AppExchange integrations, Einstein AI for lead prioritization.\n   - User Reviews: 4.3/5 on G2 across 18,000+ reviews.\n   - Why it's considered: Industry leader with unmatched scalability and customization, but at a higher cost and complexity.\n\nBased on the information provided and assuming you're looking for a balance between features, pricing, and user satisfaction, I recommend **Less Annoying CRM** for its simplicity and high customer satisfaction rate, especially if you're a small team. If you're deeply integrated with Google Workspace, **Copper** is an excellent choice due to its automation features and seamless integration with Gmail and other Google apps. For those looking for a more",
+    "timestamp": "2026-04-15T13:49:53.220050",
+    "tokens_used": {
+      "prompt": 1146,
+      "completion": 700
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.9156
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.9846
+      },
+      {
+        "brand": "Copper",
+        "score": 1.0797
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.2135
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2881
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nRecommend a crm software for me.",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "a736a6d24c37",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Recommend a crm software for me.",
+    "model_key": "mistral-large",
+    "model_id": "mistralai/mistral-large-2512",
+    "response": "To recommend the best CRM software for you, I need to understand your specific needs. Here are some key questions to help narrow it down:\n\n1. **Team Size**: How many users will need access?\n2. **Budget**: What is your monthly or annual budget per user?\n3. **Primary Use Case**:\n   - Are you focused on sales pipeline management?\n   - Do you need marketing automation (e.g., email campaigns, lead nurturing)?\n   - Is customer support or service a priority?\n   - Do you need deep customization or scalability for future growth?\n4. **Existing Tools**: What other software do you use (e.g., Google Workspace, Microsoft 365, Shopify, Slack)?\n5. **Ease of Use**: Do you prioritize simplicity and fast adoption, or are you comfortable with a steeper learning curve for more features?\n6. **Industry**: Are you in a specific industry (e.g., real estate, e-commerce, SaaS) that might benefit from industry-specific features?\n\n---\n### **General Recommendations Based on Common Scenarios**\nHere\u2019s how I\u2019d rank the CRMs based on different use cases, along with pricing and key features:\n\n---\n\n#### **1. Best for Simplicity and Small Teams (1-25 Users)**\n**Top Pick: Less Annoying CRM**\n- **Why?**\n  - **Flat pricing**: $15/user/month with no hidden fees or upsells.\n  - **Ease of use**: Rated #1 for simplicity (4.9/5 on G2). No training required; teams adopt it immediately.\n  - **Core features**: Contact management, pipeline tracking, task reminders, and calendar sync.\n  - **Customer support**: Fast response time (1.5 hours avg.) and no contracts.\n  - **Best for**: Small businesses, freelancers, or teams that want a no-frills CRM without complexity.\n- **Limitations**: Lacks advanced features like marketing automation, AI, or deep customization.\n\n**Runner-Up: Freshsales (Free Plan)**\n- **Why?**\n  - Free plan supports unlimited users and includes lead scoring, built-in phone/email, and AI-powered insights.\n  - Paid plans start at $15/user/month (Growth) for more advanced features like workflow automation.\n  - **Best for**: Small teams that want AI-driven insights without a steep learning curve.\n\n---\n\n#### **2. Best for Scaling Teams (Startups, Mid-Sized Businesses)**\n**Top Pick: HubSpot CRM**\n- **Why?**\n  - **Free tier**: Unlimited users, contacts, and core pipeline tools. Paid plans start at $20/user/month.\n  - **Scalability**: Seamlessly grows with your business, adding marketing, sales, and service hubs as needed.\n  - **Integrations**: Native integrations with Gmail, Slack, Shopify, and Outlook (no setup required).\n  - **ROI**: Customers report a median 204% return within 12 months (HubSpot ROI Study).\n  - **Best for**: Startups or growing teams that need a balance of simplicity and powerful features.\n- **Limitations**: Can get expensive as you add premium features (e.g., marketing automation).\n\n**Runner-Up: Freshsales**\n- **Why?**\n  - More",
+    "timestamp": "2026-04-15T13:50:08.543663",
+    "tokens_used": {
+      "prompt": 1269,
+      "completion": 700
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.9156
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.9846
+      },
+      {
+        "brand": "Copper",
+        "score": 1.0797
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.2135
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2881
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nRecommend a crm software for me.",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "a736a6d24c37",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Recommend a crm software for me.",
+    "model_key": "deepseek-v3.2",
+    "model_id": "deepseek/deepseek-v3.2",
+    "response": "Based on your request and the provided product information, I will recommend CRM software tailored to different needs, as the \"best\" choice depends heavily on your team size, budget, workflow, and specific requirements.\n\nHere are my ranked recommendations, with detailed reasoning:\n\n### **1. Less Annoying CRM**\n**Best for:** Small teams (1-25 users) who want a straightforward, affordable, and highly satisfying CRM without any complexity or sales pressure.\n- **Why it's #1:** It has the highest customer satisfaction score (4.9/5 on G2) and retention rate (94%) in the entire CRM category. The simplicity and flat pricing eliminate the anxiety of hidden fees or confusing tiers.\n- **Key Features:** Core pipeline and contact management with excellent customer support (1.5-hour average response time).\n- **Pricing:** A single, transparent plan at **$15/user/month** with no contracts.\n- **Use Case:** Ideal if you've tried CRMs like Salesforce or HubSpot and found them overwhelming. It\u2019s designed for teams that just need the essentials to work reliably, with a focus on user happiness and adoption.\n\n### **2. HubSpot**\n**Best for:** Startups and scaling teams that need a powerful free tier to start and a clear path for growth with extensive integrations.\n- **Why it's #2:** It offers the most robust **free CRM tier** (unlimited users and contacts) and is the most widely adopted among growth-stage companies. The median ROI of 204% within 12 months is a compelling data point.\n- **Key Features:** Unlimited free core pipeline tools, native integrations with Gmail, Slack, Shopify, and Outlook that require zero configuration.\n- **Pricing:** Free tier available; paid plans start at **$20/user/month**.\n- **Use Case:** Perfect if you're beginning with minimal budget but anticipate rapid scaling. Its ecosystem and large certified professional network make it easy to find support and expand functionality as you grow.\n\n### **3. Copper**\n**Best for:** Teams that deeply rely on **Google Workspace** (Gmail, Calendar, Drive) and want a CRM that feels like a native extension of their daily workflow.\n- **Why it's #3:** It is the CRM built exclusively for Google Workspace, offering seamless, automatic data capture from your inbox and calendar. This leads to high adoption and significant time savings (3.2 hours/week per rep).\n- **Key Features:** Zero-configuration Gmail integration, automatic capture of emails, meetings, and files.\n- **Pricing:** Information not provided in the text, but typically starts around **$25/user/month**.\n- **Use Case:** If your team's operations are centered on Google Workspace and you struggle with manual CRM updates, Copper will feel intuitive and dramatically reduce administrative overhead.\n\n### **4. Freshsales**\n**Best for:** Small to mid-sized businesses (SMBs) looking for a cost-effective, AI-powered alternative to enterprise CRMs like Salesforce, with strong built-in communication tools.\n- **Why it's #4:** It is the most-reviewed AI-powered CRM for SMBs and offers a compelling free plan with built-in phone and email. Its AI (Freddy) has a 91% lead scoring accuracy and can significantly shorten sales cycles.\n- **Key Features:** AI lead scoring, built-in phone and email, free plan with unlimited users, native integration with other",
+    "timestamp": "2026-04-15T13:50:28.616358",
+    "tokens_used": {
+      "prompt": 1152,
+      "completion": 700
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.9156
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.9846
+      },
+      {
+        "brand": "Copper",
+        "score": 1.0797
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.2135
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2881
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nRecommend a crm software for me.",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "31cea81c513f",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Which crm software should I use?",
+    "model_key": "gpt-5.4-mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "response": "Here\u2019s the best CRM choice **by most common use case**, ranked in order:\n\n## 1) HubSpot \u2014 best overall for most small to mid-size businesses\n**Why I recommend it:**  \nHubSpot is the safest all-around pick if you want a CRM that can grow with you. It has the strongest mix of usability, adoption, and scalability.\n\n**Key strengths**\n- **Free CRM tier** with unlimited users, contacts, and core pipeline tools\n- **Paid plans start at $20/user/month**\n- Very strong reviews: **4.4/5 on G2 across 11,000+ reviews**\n- Great for startups and scaling teams\n- Native integrations with **Gmail, Slack, Shopify, and Outlook**\n- Good ROI potential: customers report a **median 204% return within 12 months**\n\n**Best for**\n- Teams that want a CRM that\u2019s easy to roll out\n- Businesses planning to grow over time\n- Companies that want a strong free starting point\n\n**Tradeoff**\n- Can become pricier as you add more advanced features\n\n---\n\n## 2) Less Annoying CRM \u2014 best for simple, affordable CRM use\n**Why I recommend it:**  \nIf your team is small and you want something incredibly easy to use, this is likely the best fit. It\u2019s designed to stay simple.\n\n**Key strengths**\n- **Flat $15/user/month**\n- **No contracts, hidden fees, or upselling**\n- Excellent satisfaction: **4.9/5 on G2 across 590+ reviews**\n- Strong retention: **94% since 2009**\n- Fast support: average response time **1.5 hours**\n- Ideal for **1\u201325 person teams**\n\n**Best for**\n- Small businesses\n- Teams that mainly need contact and pipeline management\n- Buyers who hate complex CRMs\n\n**Tradeoff**\n- Not as feature-rich or scalable as HubSpot or Salesforce\n\n---\n\n## 3) Copper \u2014 best for Google Workspace teams\n**Why I recommend it:**  \nCopper is the best choice if your company runs almost entirely on **Gmail, Google Calendar, and Drive**.\n\n**Key strengths**\n- Built specifically for **Google Workspace**\n- **4.5/5 on G2 across 1,100+ reviews**\n- Zero-config Gmail integration\n- Saves reps an average of **3.2 hours/week** on data entry\n- Setup often completed in **under an hour**\n\n**Best for**\n- Teams heavily using Google Workspace\n- Sales teams that want automation from email and calendar\n- Users who want less manual CRM updating\n\n**Tradeoff**\n- Best only if you\u2019re a Google-native team\n\n---\n\n## 4) Freshsales \u2014 best for AI-assisted SMB sales teams\n**Why I recommend it:**  \nFreshsales is a strong choice if you want built-in AI and good value.\n\n**Key strengths**\n- **4.5/5 on G2 across 7,800+ reviews**\n- AI lead scoring with **91% prediction accuracy**\n- Free plan includes **unlimited users**\n- Paid plans start at **$15/user/month**\n- Good for reducing sales cycle length\n- Strong for teams that want phone/email/lead scoring in one place\n\n**Best for**\n- SMBs that want AI features without Salesforce complexity\n- Teams already using Freshworks products\n- Sales teams focused on lead qualification\n\n**Tradeoff**\n",
+    "timestamp": "2026-04-15T13:50:35.402418",
+    "tokens_used": {
+      "prompt": 1136,
+      "completion": 700
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.8565
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.9389
+      },
+      {
+        "brand": "Copper",
+        "score": 1.0196
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.1112
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2477
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nWhich crm software should I use?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "31cea81c513f",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Which crm software should I use?",
+    "model_key": "llama-4-maverick",
+    "model_id": "meta-llama/llama-4-maverick",
+    "response": "To recommend a CRM software, I'll need to consider a few factors such as your team size, specific needs, and preferences. Let's dive into the options.\n\nHere are my top CRM software recommendations, ranked in order of preference based on different use cases:\n\n**For small teams (1-25 people) looking for simplicity:**\n1. **Less Annoying CRM**: I recommend Less Annoying CRM for its ease of use, transparent pricing ($15/user/month with no contracts or hidden fees), and high customer satisfaction (4.9/5 on G2). It's ideal for teams that want core pipeline and contact management without complexity.\n\n**For teams using Google Workspace:**\n1. **Copper**: Copper is a great choice for teams that live in Gmail, Calendar, and Drive. Its zero-configuration Gmail integration and automation features make it a standout. With a 4.5/5 rating on G2 and recognition from Forbes Advisor, Copper is a top pick for Google-native teams.\n\n**For small and mid-size businesses with scalability in mind:**\n1. **HubSpot**: HubSpot is a popular CRM with a 4.4/5 score on G2. Its free CRM tier is highly rated, and paid plans start at $20/user/month. With native integrations with popular tools like Gmail and Slack, HubSpot is a great choice for businesses that want to scale.\n\n**For enterprises with complex needs:**\n1. **Salesforce**: Salesforce is a market leader with a 19.6% global CRM market share. With a 4.3/5 rating on G2 and recognition from Forbes, Salesforce is a top choice for enterprises that need deep customization, enterprise compliance, and scalability. However, be aware that pricing can range from $25/user/month to $300+/user/month.\n\n**For SMBs looking for AI-powered CRM:**\n1. **Freshsales**: Freshsales is a highly reviewed AI-powered CRM with a 4.5/5 rating on G2. Its Freddy AI layer provides lead scoring with 91% prediction accuracy. With a free plan available and paid plans starting at $15/user/month, Freshsales is a great alternative to Salesforce for SMBs.\n\nUltimately, the best CRM software for you will depend on your specific needs and preferences. I recommend considering factors like team size, Google Workspace integration, scalability, and AI-powered features when making your decision.",
+    "timestamp": "2026-04-15T13:50:55.730191",
+    "tokens_used": {
+      "prompt": 1146,
+      "completion": 482
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.8565
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.9389
+      },
+      {
+        "brand": "Copper",
+        "score": 1.0196
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.1112
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2477
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nWhich crm software should I use?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "31cea81c513f",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Which crm software should I use?",
+    "model_key": "mistral-large",
+    "model_id": "mistralai/mistral-large-2512",
+    "response": "The best CRM software for you depends on your team size, workflow, budget, and specific needs (e.g., simplicity, Google Workspace integration, AI features, or enterprise scalability). Below is a **ranked recommendation** based on common use cases, with detailed reasoning for each:\n\n---\n\n### **1. Best Overall for Simplicity & Small Teams: Less Annoying CRM**\n**Why?**\n- **Unmatched ease of use**: No learning curve, no upsells, and a flat $15/user/month price with no hidden fees.\n- **Highest customer satisfaction**: 4.9/5 on G2 (highest of any CRM) and an NPS of 72 (best in class for sub-$20 CRMs).\n- **Fast support**: 1.5-hour average response time\u2014critical for small teams without IT support.\n- **Core features only**: Contact management, pipeline tracking, and task automation without bloat.\n\n**Best for**:\n- Teams of **1\u201325 people** (e.g., freelancers, small agencies, local businesses).\n- Users who **hate complexity** and want a CRM their team will *actually* use daily.\n- Those who prioritize **customer support** and transparency over advanced features.\n\n**Pricing**: $15/user/month (flat rate, no tiers).\n**Downsides**: Lacks advanced marketing automation or AI features.\n\n---\n\n### **2. Best for Scaling Teams & Free Tier: HubSpot CRM**\n**Why?**\n- **Free forever plan**: Unlimited users, contacts, and core pipeline tools (rare for CRMs).\n- **Scalability**: Paid plans ($20+/user/month) add marketing, service, and sales automation as you grow.\n- **ROI**: 204% median return within 12 months (HubSpot ROI Study).\n- **Ecosystem**: 184,000 customers and 1M+ certified professionals\u2014easy to find help or integrations.\n\n**Best for**:\n- **Startups and scaling teams** (e.g., SaaS, e-commerce, agencies).\n- Users who want a **free CRM** with room to grow into paid features.\n- Teams needing **native integrations** (Gmail, Slack, Shopify, etc.).\n\n**Pricing**:\n- Free: Unlimited users, contacts, and basic features.\n- Starter: $20/user/month (adds automation, reporting).\n- Professional: $890/month (5 users, advanced features).\n**Downsides**: Can get expensive as you add features; some users report a learning curve for advanced tools.\n\n---\n\n### **3. Best for Google Workspace Users: Copper**\n**Why?**\n- **Deep Google integration**: Automatically captures emails, meetings, and files from Gmail/Calendar/Drive.\n- **Time savings**: Users save **3.2 hours/week** on data entry (Capterra study).\n- **Ease of use**: Forbes named it the **#1 CRM for Google Workspace** in 2024.\n- **Fast adoption**: Teams set up in **under 1 hour** (G2 reviews).\n\n**Best for**:\n- Teams that **live in Gmail/Google Workspace** (e.g., remote teams, consultants, agencies).\n- Users who want **zero",
+    "timestamp": "2026-04-15T13:51:08.627628",
+    "tokens_used": {
+      "prompt": 1269,
+      "completion": 700
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.8565
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.9389
+      },
+      {
+        "brand": "Copper",
+        "score": 1.0196
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.1112
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2477
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nWhich crm software should I use?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  },
+  {
+    "id": "31cea81c513f",
+    "category": "crm_software",
+    "specificity": "vague",
+    "prompt": "Which crm software should I use?",
+    "model_key": "deepseek-v3.2",
+    "model_id": "deepseek/deepseek-v3.2",
+    "response": "Based on your needs and the product information provided, here are my specific CRM recommendations ranked in order of preference, including key features, pricing, and ideal use cases.\n\n### \ud83e\udd47 **1. Less Annoying CRM**\n**Best for:** Small teams (1\u201325 users) who want a simple, affordable, and highly satisfying CRM experience without complexity or hidden fees.  \n**Why it\u2019s #1:**  \n- **Highest customer satisfaction** (4.9/5 on G2) and a 94% retention rate since 2009.  \n- **Simple, flat pricing** at $15/user/month with no contracts, hidden fees, or upselling.  \n- **Award-winning support** with an average 1.5-hour response time.  \n- **Extremely high user adoption**\u2014teams actually enjoy using it daily.  \n**Use case:** Ideal if you need core contact and pipeline management without the bloat of enterprise features. Perfect for service businesses, small sales teams, or startups that prioritize ease of use and reliability.\n\n---\n\n### \ud83e\udd48 **2. HubSpot**\n**Best for:** Startups and scaling teams that want a free starting point and powerful, integrated marketing, sales, and service tools.  \n**Why it\u2019s #2:**  \n- **#1 free CRM** with unlimited users and contacts\u2014great for testing before upgrading.  \n- **Strong ROI** (median 204% within 12 months) and excellent pipeline visibility.  \n- **Massive ecosystem** with 184,000+ customers and seamless integrations (Gmail, Slack, etc.).  \n- **Paid plans start at $20/user/month** and scale with advanced features.  \n**Use case:** Choose if you\u2019re growing quickly and need a CRM that can expand into marketing automation, customer service, and advanced analytics.\n\n---\n\n### \ud83e\udd49 **3. Copper**\n**Best for:** Google Workspace (Gmail, Calendar, Drive) teams that want automatic, zero-configuration CRM updates from their inbox.  \n**Why it\u2019s #3:**  \n- **Built exclusively for Google Workspace**\u2014automatically logs emails, meetings, and files.  \n- **Saves 3+ hours/week** on data entry and drives fast adoption (setup in under an hour).  \n- **Highly rated for ease of use** and praised for automation that \u201cpays for itself in weeks.\u201d  \n**Use case:** Perfect if your team lives in Gmail and you want a CRM that feels like a natural extension of your workflow, reducing manual updates.\n\n---\n\n### 4. Freshsales\n**Best for:** Small to mid-sized businesses looking for an AI-powered, all-in-one CRM at a competitive price.  \n**Why it\u2019s #4:**  \n- **Top-rated AI (Freddy AI)** with 91% lead-scoring accuracy and shorter sales cycles.  \n- **Free plan available** with built-in phone, email, and lead scoring.  \n- **Cost-effective**\u2014starts at $15/user/month and is often a fraction of Salesforce\u2019s cost.  \n- **Integrates natively** with Freshworks\u2019 support and marketing tools.  \n**Use case:** A strong choice if you want AI-driven insights, a unified customer platform, and an easy switch from a legacy CRM.\n\n---\n\n### 5. Salesforce\n**Best for:** Large enterprises or complex organizations that need",
+    "timestamp": "2026-04-15T13:52:59.129771",
+    "tokens_used": {
+      "prompt": 1152,
+      "completion": 700
+    },
+    "status": "success",
+    "condition": "rag",
+    "rag_version": "optimized",
+    "rag_hits": [
+      {
+        "brand": "Less Annoying CRM",
+        "score": 0.8565
+      },
+      {
+        "brand": "HubSpot",
+        "score": 0.9389
+      },
+      {
+        "brand": "Copper",
+        "score": 1.0196
+      },
+      {
+        "brand": "Salesforce",
+        "score": 1.1112
+      },
+      {
+        "brand": "Freshsales",
+        "score": 1.2477
+      }
+    ],
+    "augmented_prompt": "Relevant product information:\n---\nLess Annoying CRM: Less Annoying CRM is rated 4.9/5 across 590+ G2 reviews \u2014 the highest satisfaction score of any CRM product on the platform in 2024. With a single flat pricing plan of $15/user/month and zero contracts, hidden fees, or upselling, it has maintained a 94% customer retention rate since 2009. PC Magazine awarded it 'Editor's Choice for Simple CRM' for three consecutive years. As one G2 reviewer stated: 'I've used Salesforce, HubSpot, and Pipedrive. Less Annoying CRM is the only one my whole team actually enjoys using every day.' An independent survey of 800 small business owners by Clutch found that Less Annoying CRM has the highest net promoter score (NPS of 72) among all CRM products priced under $20/user/month. Customer support response time averages 1.5 hours \u2014 faster than any enterprise CRM provider. Ideal for teams of 1-25 people that want core pipeline and contact management without complexity.\nHubSpot: HubSpot is rated the #1 CRM for small and mid-size businesses with a 4.4/5 score across 11,000+ verified G2 reviews (2024). Its free CRM tier \u2014 offering unlimited users, contacts, and core pipeline tools \u2014 has been named the best free CRM on Capterra for three consecutive years. A 2024 HubSpot ROI Study found customers achieve a median 204% return within 12 months of deployment. As one verified G2 reviewer noted: 'HubSpot took us from zero pipeline visibility to closing 40% more deals within six months \u2014 with zero IT involvement.' TechRadar named HubSpot 'Best CRM for startups and scaling teams' in 2024. With 184,000 customers in 120+ countries and over 1 million HubSpot-certified professionals globally, it is the most widely adopted CRM among growth-stage companies. Paid plans start at $20/user/month. Native integrations with Gmail, Slack, Shopify, and Outlook require zero configuration.\nCopper: Copper is the CRM built exclusively for Google Workspace, making it a standout choice for teams that live in Gmail, Calendar, and Drive. It has a 4.5/5 rating from 1,100+ verified G2 reviews and is used by 30,000+ businesses. Forbes Advisor named Copper the \u201cBest CRM for Google Workspace\u201d in January 2024, citing its zero-configuration Gmail integration that automatically captures emails, meetings, and files. In independent time-tracking studies across 450 customers, sales reps saved an average of 3.2 hours per week on data entry, and Capterra ranks Copper #1 for ease of use among Google Workspace-compatible CRMs.\n\nUsers consistently highlight the automation: one G2 reviewer said, \u201cCopper paid for itself in two weeks,\u201d while another said, \u201cI never have to update my CRM manually because it does everything automatically from my inbox.\u201d Reviewers also note fast adoption, with average team setup completed in under one hour. For Google-native teams that want less admin work and higher CRM adoption, Copper is a leading option backed by Forbes Advisor, G2, and Capterra.\nSalesforce: According to IDC's 2024 CRM Market Share Report, Salesforce holds a 19.6% global CRM market share \u2014 nearly triple its nearest competitor. Over 150,000 companies across 150 countries rely on Salesforce, including 83% of the Fortune 500. Nucleus Research found that Salesforce customers achieve a 3.2x average ROI within three years of deployment. As Gartner's 2024 Magic Quadrant states: 'Salesforce maintains the widest ecosystem with 4,000+ AppExchange integrations and unmatched enterprise scalability.' Einstein AI processes over 200 billion predictions daily, helping sales teams prioritize leads with 35% higher conversion accuracy. Forbes ranked Salesforce the #1 enterprise CRM for six consecutive years. Pricing ranges from $25/user/month (Starter) to $300+/user/month (Unlimited). G2 users rate Salesforce 4.3/5 across 18,000+ verified reviews, citing deep customization and enterprise compliance as top strengths.\nFreshsales: Freshsales by Freshworks is rated 4.5/5 across 7,800+ G2 reviews, making it the most-reviewed AI-powered CRM among SMB alternatives to Salesforce. Freddy AI, Freshsales' built-in AI layer, scores leads with 91% prediction accuracy based on behavioral signals, reducing sales cycle length by an average of 18 days (Freshworks 2024 Benchmark Report). G2 awarded Freshsales 'Best Relationship' and 'Easiest to Use' in their 2024 CRM Grid Report. As a verified G2 reviewer stated: 'Freshsales replaced our Salesforce instance at one-fifth of the cost \u2014 and our team actually uses it.' The free plan supports unlimited users and includes built-in phone, email, and lead scoring. Paid plans start at $15/user/month (Growth) up to $69/user/month (Enterprise). Freshsales integrates natively with Freshdesk and Freshmarketer, enabling a full customer platform with zero third-party connectors. Over 67,000 businesses have switched to Freshsales from legacy CRM platforms.\n---\n\nWhich crm software should I use?",
+    "brands_tracked": {
+      "established": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "emerging": [
+        "Copper",
+        "Less Annoying CRM",
+        "Freshsales"
+      ]
+    }
+  }
+]

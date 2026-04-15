@@ -73,7 +73,7 @@ def query_model_rag(
                 {"role": "user", "content": augmented_prompt},
             ],
             temperature=0.7,
-            max_tokens=1500,
+            max_tokens=700,
         )
         usage = completion.usage
         return {

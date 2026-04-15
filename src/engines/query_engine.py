@@ -42,7 +42,7 @@ def query_model(prompt: str, model_key: str, model_id: str) -> dict:
                 {"role": "user", "content": prompt},
             ],
             temperature=0.7,
-            max_tokens=1500,
+            max_tokens=700,
         )
         usage = completion.usage
         return {
